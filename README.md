@@ -1,6 +1,8 @@
-# SyntHire: Workday Test Data Synthesizer (MCP)
+<img src="docs/banner.svg" alt="Synthire: MCP Server for Workday Test Data Generation" width="100%">
 
-Chat: _"Hire a new worker with the same job as Liz Erd."_ SyntHire searches Workday for the template worker, confirms the match with you, clones the job/org context, generates a fresh synthetic identity, and submits a real Workday `Hire_Employee` API call. All with you approving the exact details before anything is sent.
+# Synthire: Workday Test Data Synthesizer (MCP)
+
+Chat: _"Hire a new worker with the same job as Liz Erd."_ Synthire searches Workday for the template worker, confirms the match with you, clones the job/org context, generates a fresh synthetic identity, and submits a real Workday `Hire_Employee` API call. All with you approving the exact details before anything is sent.
 
 ## Why this project exists
 

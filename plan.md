@@ -1,4 +1,4 @@
-# SyntHire — Project Plan
+# Synthire — Project Plan
 
 A record of what's been decided and built so far, and what's still open. See [README.md](README.md) for the architecture/why, and [Agents.md](Agents.md) for the agent's operating instructions.
 

@@ -1,6 +1,6 @@
 def main() -> None:
     print(
-        "SyntHire: run `synthire-mock` to start the mock Workday tenant, "
+        "Synthire: run `synthire-mock` to start the mock Workday tenant, "
         "and `synthire-mcp` to start the MCP server."
     )
 

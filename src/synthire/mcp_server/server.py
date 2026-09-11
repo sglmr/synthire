@@ -22,7 +22,7 @@ from .client import WorkdayClient
 configure_logging()
 logger = logging.getLogger(__name__)
 
-mcp = MCPServer("SyntHire")
+mcp = MCPServer("Synthire")
 _client = WorkdayClient()
 
 _LOCALE_BY_COUNTRY = {

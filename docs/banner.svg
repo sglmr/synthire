@@ -1,0 +1,56 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Synthire: MCP Server for Workday Test Data Generation">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#182338"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#dots)"/>
+  <circle cx="1010" cy="120" r="260" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accent)"/>
+
+  <!-- icon: ID badge with a "new hire" plus -->
+  <g transform="translate(58,68)">
+    <rect x="0" y="0" width="112" height="128" rx="16" fill="#141d33" stroke="url(#accent)" stroke-width="3.5"/>
+    <circle cx="56" cy="46" r="22" fill="none" stroke="url(#accent)" stroke-width="3.5"/>
+    <circle cx="56" cy="40" r="8" fill="url(#accent)"/>
+    <path d="M38 58 Q56 46 74 58" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="24" y="86" width="64" height="6" rx="3" fill="#3a4a6b"/>
+    <rect x="24" y="100" width="44" height="6" rx="3" fill="#3a4a6b"/>
+    <circle cx="94" cy="104" r="22" fill="#0b1120" stroke="url(#accent)" stroke-width="3.5"/>
+    <path d="M94 95 V113 M85 104 H103" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="208" y="128" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#f8fafc" letter-spacing="-1">Synthire</text>
+  <text x="211" y="160" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#94a3b8">MCP Server for Workday Test Data Generation</text>
+
+  <!-- tech pills -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600">
+    <rect x="211" y="184" width="70" height="30" rx="15" fill="none" stroke="#3a4a6b" stroke-width="1.5"/>
+    <text x="246" y="204" fill="#7dd3fc" text-anchor="middle">MCP</text>
+
+    <rect x="291" y="184" width="88" height="30" rx="15" fill="none" stroke="#3a4a6b" stroke-width="1.5"/>
+    <text x="335" y="204" fill="#c4b5fd" text-anchor="middle">Python</text>
+
+    <rect x="389" y="184" width="112" height="30" rx="15" fill="none" stroke="#3a4a6b" stroke-width="1.5"/>
+    <text x="445" y="204" fill="#7dd3fc" text-anchor="middle">SOAP / XML</text>
+
+    <rect x="511" y="184" width="120" height="30" rx="15" fill="none" stroke="#3a4a6b" stroke-width="1.5"/>
+    <text x="571" y="204" fill="#c4b5fd" text-anchor="middle">FastAPI</text>
+  </g>
+</svg>

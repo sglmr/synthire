@@ -23,7 +23,7 @@ from .state import TenantState
 configure_logging()
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="SyntHire Mock Workday Tenant")
+app = FastAPI(title="Synthire Mock Workday Tenant")
 state = TenantState()
 
 
