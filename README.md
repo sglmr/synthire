@@ -1,6 +1,6 @@
 <img src="docs/banner.svg" alt="Synthire: MCP Server for Workday Test Data Generation" width="100%">
 
-# Synthire: Workday Test Data Synthesizer (MCP)
+# Synthire: MCP server for synthetic Workday test data generation
 
 Chat: _"Hire a new worker with the same job as Liz Erd."_ Synthire searches Workday for the template worker, confirms the match with you, clones the job/org context, generates a fresh synthetic identity, and submits a real Workday `Hire_Employee` API call. All with you approving the exact details before anything is sent.
 
