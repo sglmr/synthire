@@ -1,0 +1,35 @@
+<bsvc:Hire_Employee_Event_Response bsvc:version="string" xmlns:bsvc="urn:com.workday/bsvc">
+  <!--Optional:-->
+  <bsvc:Event_Reference bsvc:Descriptor="string">
+    <!--Zero or more repetitions:-->
+    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+  </bsvc:Event_Reference>
+  <!--Optional:-->
+  <bsvc:Employee_Reference bsvc:Descriptor="string">
+    <!--Zero or more repetitions:-->
+    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+  </bsvc:Employee_Reference>
+  <!--Optional:-->
+  <bsvc:Position_Reference bsvc:Descriptor="string">
+    <!--Zero or more repetitions:-->
+    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+  </bsvc:Position_Reference>
+  <!--Optional:-->
+  <bsvc:Applicant_Reference bsvc:Descriptor="string">
+    <!--Zero or more repetitions:-->
+    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+  </bsvc:Applicant_Reference>
+  <!--Zero or more repetitions:-->
+  <bsvc:Exceptions_Response_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Exceptions_Data>
+      <!--Zero or more repetitions:-->
+      <bsvc:Exception_Data>
+        <!--Optional:-->
+        <bsvc:Classification>string</bsvc:Classification>
+        <!--Optional:-->
+        <bsvc:Message>string</bsvc:Message>
+      </bsvc:Exception_Data>
+    </bsvc:Exceptions_Data>
+  </bsvc:Exceptions_Response_Data>
+</bsvc:Hire_Employee_Event_Response>

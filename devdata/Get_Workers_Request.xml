@@ -1,0 +1,245 @@
+<bsvc:Get_Workers_Request bsvc:version="string" xmlns:bsvc="urn:com.workday/bsvc">
+  <!--Optional:-->
+  <bsvc:Request_References bsvc:Skip_Non_Existing_Instances="false" bsvc:Ignore_Invalid_References="true">
+    <!--1 or more repetitions:-->
+    <bsvc:Worker_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Worker_Reference>
+  </bsvc:Request_References>
+  <!--Optional:-->
+  <bsvc:Request_Criteria>
+    <!--Zero or more repetitions:-->
+    <bsvc:Transaction_Log_Criteria_Data>
+      <!--Optional:-->
+      <bsvc:Transaction_Date_Range_Data>
+        <!--Optional:-->
+        <bsvc:Updated_From>2013-11-23T14:44:07</bsvc:Updated_From>
+        <!--Optional:-->
+        <bsvc:Updated_Through>2014-06-09T15:15:04+00:00</bsvc:Updated_Through>
+        <!--Optional:-->
+        <bsvc:Effective_From>2008-11-15T16:52:58</bsvc:Effective_From>
+        <!--Optional:-->
+        <bsvc:Effective_Through>2017-05-15T06:41:13</bsvc:Effective_Through>
+      </bsvc:Transaction_Date_Range_Data>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <!--Optional:-->
+      <bsvc:Transaction_Type_References>
+        <!--Zero or more repetitions:-->
+        <bsvc:Transaction_Type_Reference bsvc:Descriptor="string">
+          <!--Zero or more repetitions:-->
+          <bsvc:ID bsvc:type="string">string</bsvc:ID>
+        </bsvc:Transaction_Type_Reference>
+      </bsvc:Transaction_Type_References>
+      <!--Optional:-->
+      <bsvc:Subscriber_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Subscriber_Reference>
+    </bsvc:Transaction_Log_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Organization_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Organization_Reference>
+    <!--Zero or more repetitions:-->
+    <bsvc:Country_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Country_Reference>
+    <!--Optional:-->
+    <bsvc:Include_Subordinate_Organizations>false</bsvc:Include_Subordinate_Organizations>
+    <!--Zero or more repetitions:-->
+    <bsvc:Position_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Position_Reference>
+    <!--Optional:-->
+    <bsvc:Event_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Event_Reference>
+    <!--Zero or more repetitions:-->
+    <bsvc:Benefit_Plan_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Benefit_Plan_Reference>
+    <!--Optional:-->
+    <bsvc:Field_And_Parameter_Criteria_Data>
+      <!--1 or more repetitions:-->
+      <bsvc:Provider_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Provider_Reference>
+    </bsvc:Field_And_Parameter_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:National_ID_Criteria_Data>
+      <bsvc:Identifier_ID>string</bsvc:Identifier_ID>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <bsvc:National_ID_Type_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:National_ID_Type_Reference>
+      <bsvc:Country_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Country_Reference>
+    </bsvc:National_ID_Criteria_Data>
+    <!--Optional:-->
+    <bsvc:Exclude_Inactive_Workers>false</bsvc:Exclude_Inactive_Workers>
+    <!--Optional:-->
+    <bsvc:Exclude_Employees>false</bsvc:Exclude_Employees>
+    <!--Optional:-->
+    <bsvc:Exclude_Contingent_Workers>false</bsvc:Exclude_Contingent_Workers>
+    <!--Zero or more repetitions:-->
+    <bsvc:Eligibility_Criteria_Data>
+      <bsvc:Field_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+      </bsvc:Field_Reference>
+      <!--Optional:-->
+      <bsvc:As_Of_Effective_Date>2009-10-14</bsvc:As_Of_Effective_Date>
+      <!--Optional:-->
+      <bsvc:As_Of_Entry_DateTime>2010-03-18T16:05:32</bsvc:As_Of_Entry_DateTime>
+    </bsvc:Eligibility_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Universal_ID_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Universal_ID_Reference>
+  </bsvc:Request_Criteria>
+  <!--Optional:-->
+  <bsvc:Response_Filter>
+    <!--Optional:-->
+    <bsvc:As_Of_Effective_Date>2018-12-28+00:00</bsvc:As_Of_Effective_Date>
+    <!--Optional:-->
+    <bsvc:As_Of_Entry_DateTime>2017-11-01T08:15:53+00:00</bsvc:As_Of_Entry_DateTime>
+    <!--Optional:-->
+    <bsvc:Page>1000.00</bsvc:Page>
+    <!--Optional:-->
+    <bsvc:Count>1000.00</bsvc:Count>
+  </bsvc:Response_Filter>
+  <!--Optional:-->
+  <bsvc:Response_Group>
+    <!--Optional:-->
+    <bsvc:Include_Reference>false</bsvc:Include_Reference>
+    <!--Optional:-->
+    <bsvc:Include_Personal_Information>false</bsvc:Include_Personal_Information>
+    <!--Optional:-->
+    <bsvc:Show_All_Personal_Information>false</bsvc:Show_All_Personal_Information>
+    <!--Optional:-->
+    <bsvc:Include_Additional_Jobs>true</bsvc:Include_Additional_Jobs>
+    <!--Optional:-->
+    <bsvc:Include_Employment_Information>true</bsvc:Include_Employment_Information>
+    <!--Optional:-->
+    <bsvc:Include_Compensation>false</bsvc:Include_Compensation>
+    <!--Optional:-->
+    <bsvc:Include_Organizations>true</bsvc:Include_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Organization_Support_Role_Data>false</bsvc:Exclude_Organization_Support_Role_Data>
+    <!--Optional:-->
+    <bsvc:Exclude_Location_Hierarchies>true</bsvc:Exclude_Location_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Cost_Centers>false</bsvc:Exclude_Cost_Centers>
+    <!--Optional:-->
+    <bsvc:Exclude_Cost_Center_Hierarchies>false</bsvc:Exclude_Cost_Center_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Companies>true</bsvc:Exclude_Companies>
+    <!--Optional:-->
+    <bsvc:Exclude_Company_Hierarchies>false</bsvc:Exclude_Company_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Matrix_Organizations>true</bsvc:Exclude_Matrix_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Pay_Groups>true</bsvc:Exclude_Pay_Groups>
+    <!--Optional:-->
+    <bsvc:Exclude_Regions>false</bsvc:Exclude_Regions>
+    <!--Optional:-->
+    <bsvc:Exclude_Region_Hierarchies>false</bsvc:Exclude_Region_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Supervisory_Organizations>true</bsvc:Exclude_Supervisory_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Teams>false</bsvc:Exclude_Teams>
+    <!--Optional:-->
+    <bsvc:Exclude_Custom_Organizations>false</bsvc:Exclude_Custom_Organizations>
+    <!--Optional:-->
+    <bsvc:Include_Roles>true</bsvc:Include_Roles>
+    <!--Optional:-->
+    <bsvc:Include_Management_Chain_Data>true</bsvc:Include_Management_Chain_Data>
+    <!--Optional:-->
+    <bsvc:Include_Multiple_Managers_in_Management_Chain_Data>true</bsvc:Include_Multiple_Managers_in_Management_Chain_Data>
+    <!--Optional:-->
+    <bsvc:Include_Benefit_Enrollments>true</bsvc:Include_Benefit_Enrollments>
+    <!--Optional:-->
+    <bsvc:Include_Benefit_Eligibility>false</bsvc:Include_Benefit_Eligibility>
+    <!--Optional:-->
+    <bsvc:Include_Related_Persons>false</bsvc:Include_Related_Persons>
+    <!--Optional:-->
+    <bsvc:Include_Qualifications>false</bsvc:Include_Qualifications>
+    <!--Optional:-->
+    <bsvc:Include_Employee_Review>false</bsvc:Include_Employee_Review>
+    <!--Optional:-->
+    <bsvc:Include_Goals>true</bsvc:Include_Goals>
+    <!--Optional:-->
+    <bsvc:Include_Development_Items>true</bsvc:Include_Development_Items>
+    <!--Optional:-->
+    <bsvc:Include_Skills>false</bsvc:Include_Skills>
+    <!--Optional:-->
+    <bsvc:Include_Photo>true</bsvc:Include_Photo>
+    <!--Optional:-->
+    <bsvc:Include_Worker_Documents>true</bsvc:Include_Worker_Documents>
+    <!--Optional:-->
+    <bsvc:Include_Transaction_Log_Data>true</bsvc:Include_Transaction_Log_Data>
+    <!--Optional:-->
+    <bsvc:Include_Subevents_for_Corrected_Transaction>true</bsvc:Include_Subevents_for_Corrected_Transaction>
+    <!--Optional:-->
+    <bsvc:Include_Subevents_for_Rescinded_Transaction>false</bsvc:Include_Subevents_for_Rescinded_Transaction>
+    <!--Optional:-->
+    <bsvc:Include_Succession_Profile>true</bsvc:Include_Succession_Profile>
+    <!--Optional:-->
+    <bsvc:Include_Talent_Assessment>true</bsvc:Include_Talent_Assessment>
+    <!--Optional:-->
+    <bsvc:Include_Employee_Contract_Data>true</bsvc:Include_Employee_Contract_Data>
+    <!--Optional:-->
+    <bsvc:Include_Contracts_for_Terminated_Workers>true</bsvc:Include_Contracts_for_Terminated_Workers>
+    <!--Optional:-->
+    <bsvc:Include_Collective_Agreement_Data>false</bsvc:Include_Collective_Agreement_Data>
+    <!--Optional:-->
+    <bsvc:Include_Probation_Period_Data>true</bsvc:Include_Probation_Period_Data>
+    <!--Optional:-->
+    <bsvc:Include_Extended_Employee_Contract_Details>false</bsvc:Include_Extended_Employee_Contract_Details>
+    <!--Optional:-->
+    <bsvc:Include_Feedback_Received>true</bsvc:Include_Feedback_Received>
+    <!--Optional:-->
+    <bsvc:Include_User_Account>true</bsvc:Include_User_Account>
+    <!--Optional:-->
+    <bsvc:Include_Career>true</bsvc:Include_Career>
+    <!--Optional:-->
+    <bsvc:Include_Account_Provisioning>true</bsvc:Include_Account_Provisioning>
+    <!--Optional:-->
+    <bsvc:Include_Background_Check_Data>false</bsvc:Include_Background_Check_Data>
+    <!--Optional:-->
+    <bsvc:Include_Contingent_Worker_Tax_Authority_Form_Information>true</bsvc:Include_Contingent_Worker_Tax_Authority_Form_Information>
+    <!--Optional:-->
+    <bsvc:Exclude_Funds>true</bsvc:Exclude_Funds>
+    <!--Optional:-->
+    <bsvc:Exclude_Fund_Hierarchies>true</bsvc:Exclude_Fund_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Grants>false</bsvc:Exclude_Grants>
+    <!--Optional:-->
+    <bsvc:Exclude_Grant_Hierarchies>true</bsvc:Exclude_Grant_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Business_Units>false</bsvc:Exclude_Business_Units>
+    <!--Optional:-->
+    <bsvc:Exclude_Business_Unit_Hierarchies>false</bsvc:Exclude_Business_Unit_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Programs>true</bsvc:Exclude_Programs>
+    <!--Optional:-->
+    <bsvc:Exclude_Program_Hierarchies>true</bsvc:Exclude_Program_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Gifts>true</bsvc:Exclude_Gifts>
+    <!--Optional:-->
+    <bsvc:Exclude_Gift_Hierarchies>false</bsvc:Exclude_Gift_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Retiree_Organizations>true</bsvc:Exclude_Retiree_Organizations>
+  </bsvc:Response_Group>
+</bsvc:Get_Workers_Request>
