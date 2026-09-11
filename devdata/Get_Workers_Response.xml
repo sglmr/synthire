@@ -1,0 +1,2408 @@
+<bsvc:Get_Workers_Response bsvc:version="string" xmlns:bsvc="urn:com.workday/bsvc">
+  <!--Optional:-->
+  <bsvc:Request_References bsvc:Skip_Non_Existing_Instances="false" bsvc:Ignore_Invalid_References="true">
+    <!--1 or more repetitions:-->
+    <bsvc:Worker_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Worker_Reference>
+  </bsvc:Request_References>
+  <!--Optional:-->
+  <bsvc:Request_Criteria>
+    <!--Zero or more repetitions:-->
+    <bsvc:Transaction_Log_Criteria_Data>
+      <!--Optional:-->
+      <bsvc:Transaction_Date_Range_Data>
+        <!--Optional:-->
+        <bsvc:Updated_From>2013-11-23T14:44:07</bsvc:Updated_From>
+        <!--Optional:-->
+        <bsvc:Updated_Through>2014-06-09T15:15:04+00:00</bsvc:Updated_Through>
+        <!--Optional:-->
+        <bsvc:Effective_From>2008-11-15T16:52:58</bsvc:Effective_From>
+        <!--Optional:-->
+        <bsvc:Effective_Through>2017-05-15T06:41:13</bsvc:Effective_Through>
+      </bsvc:Transaction_Date_Range_Data>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <!--Optional:-->
+      <bsvc:Transaction_Type_References>
+        <!--Zero or more repetitions:-->
+        <bsvc:Transaction_Type_Reference bsvc:Descriptor="string">
+          <!--Zero or more repetitions:-->
+          <bsvc:ID bsvc:type="string">string</bsvc:ID>
+        </bsvc:Transaction_Type_Reference>
+      </bsvc:Transaction_Type_References>
+      <!--Optional:-->
+      <bsvc:Subscriber_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Subscriber_Reference>
+    </bsvc:Transaction_Log_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Organization_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Organization_Reference>
+    <!--Zero or more repetitions:-->
+    <bsvc:Country_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Country_Reference>
+    <!--Optional:-->
+    <bsvc:Include_Subordinate_Organizations>false</bsvc:Include_Subordinate_Organizations>
+    <!--Zero or more repetitions:-->
+    <bsvc:Position_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Position_Reference>
+    <!--Optional:-->
+    <bsvc:Event_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Event_Reference>
+    <!--Zero or more repetitions:-->
+    <bsvc:Benefit_Plan_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Benefit_Plan_Reference>
+    <!--Optional:-->
+    <bsvc:Field_And_Parameter_Criteria_Data>
+      <!--1 or more repetitions:-->
+      <bsvc:Provider_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Provider_Reference>
+    </bsvc:Field_And_Parameter_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:National_ID_Criteria_Data>
+      <bsvc:Identifier_ID>string</bsvc:Identifier_ID>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <bsvc:National_ID_Type_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:National_ID_Type_Reference>
+      <bsvc:Country_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Country_Reference>
+    </bsvc:National_ID_Criteria_Data>
+    <!--Optional:-->
+    <bsvc:Exclude_Inactive_Workers>false</bsvc:Exclude_Inactive_Workers>
+    <!--Optional:-->
+    <bsvc:Exclude_Employees>false</bsvc:Exclude_Employees>
+    <!--Optional:-->
+    <bsvc:Exclude_Contingent_Workers>false</bsvc:Exclude_Contingent_Workers>
+    <!--Zero or more repetitions:-->
+    <bsvc:Eligibility_Criteria_Data>
+      <bsvc:Field_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+      </bsvc:Field_Reference>
+      <!--Optional:-->
+      <bsvc:As_Of_Effective_Date>2009-10-14</bsvc:As_Of_Effective_Date>
+      <!--Optional:-->
+      <bsvc:As_Of_Entry_DateTime>2010-03-18T16:05:32</bsvc:As_Of_Entry_DateTime>
+    </bsvc:Eligibility_Criteria_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Universal_ID_Reference bsvc:Descriptor="string">
+      <!--Zero or more repetitions:-->
+      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+    </bsvc:Universal_ID_Reference>
+  </bsvc:Request_Criteria>
+  <!--Optional:-->
+  <bsvc:Response_Filter>
+    <!--Optional:-->
+    <bsvc:As_Of_Effective_Date>2018-12-28+00:00</bsvc:As_Of_Effective_Date>
+    <!--Optional:-->
+    <bsvc:As_Of_Entry_DateTime>2017-11-01T08:15:53+00:00</bsvc:As_Of_Entry_DateTime>
+    <!--Optional:-->
+    <bsvc:Page>1000.00</bsvc:Page>
+    <!--Optional:-->
+    <bsvc:Count>1000.00</bsvc:Count>
+  </bsvc:Response_Filter>
+  <!--Optional:-->
+  <bsvc:Response_Group>
+    <!--Optional:-->
+    <bsvc:Include_Reference>false</bsvc:Include_Reference>
+    <!--Optional:-->
+    <bsvc:Include_Personal_Information>false</bsvc:Include_Personal_Information>
+    <!--Optional:-->
+    <bsvc:Show_All_Personal_Information>false</bsvc:Show_All_Personal_Information>
+    <!--Optional:-->
+    <bsvc:Include_Additional_Jobs>true</bsvc:Include_Additional_Jobs>
+    <!--Optional:-->
+    <bsvc:Include_Employment_Information>true</bsvc:Include_Employment_Information>
+    <!--Optional:-->
+    <bsvc:Include_Compensation>false</bsvc:Include_Compensation>
+    <!--Optional:-->
+    <bsvc:Include_Organizations>true</bsvc:Include_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Organization_Support_Role_Data>false</bsvc:Exclude_Organization_Support_Role_Data>
+    <!--Optional:-->
+    <bsvc:Exclude_Location_Hierarchies>true</bsvc:Exclude_Location_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Cost_Centers>false</bsvc:Exclude_Cost_Centers>
+    <!--Optional:-->
+    <bsvc:Exclude_Cost_Center_Hierarchies>false</bsvc:Exclude_Cost_Center_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Companies>true</bsvc:Exclude_Companies>
+    <!--Optional:-->
+    <bsvc:Exclude_Company_Hierarchies>false</bsvc:Exclude_Company_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Matrix_Organizations>true</bsvc:Exclude_Matrix_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Pay_Groups>true</bsvc:Exclude_Pay_Groups>
+    <!--Optional:-->
+    <bsvc:Exclude_Regions>false</bsvc:Exclude_Regions>
+    <!--Optional:-->
+    <bsvc:Exclude_Region_Hierarchies>false</bsvc:Exclude_Region_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Supervisory_Organizations>true</bsvc:Exclude_Supervisory_Organizations>
+    <!--Optional:-->
+    <bsvc:Exclude_Teams>false</bsvc:Exclude_Teams>
+    <!--Optional:-->
+    <bsvc:Exclude_Custom_Organizations>false</bsvc:Exclude_Custom_Organizations>
+    <!--Optional:-->
+    <bsvc:Include_Roles>true</bsvc:Include_Roles>
+    <!--Optional:-->
+    <bsvc:Include_Management_Chain_Data>true</bsvc:Include_Management_Chain_Data>
+    <!--Optional:-->
+    <bsvc:Include_Multiple_Managers_in_Management_Chain_Data>true</bsvc:Include_Multiple_Managers_in_Management_Chain_Data>
+    <!--Optional:-->
+    <bsvc:Include_Benefit_Enrollments>true</bsvc:Include_Benefit_Enrollments>
+    <!--Optional:-->
+    <bsvc:Include_Benefit_Eligibility>false</bsvc:Include_Benefit_Eligibility>
+    <!--Optional:-->
+    <bsvc:Include_Related_Persons>false</bsvc:Include_Related_Persons>
+    <!--Optional:-->
+    <bsvc:Include_Qualifications>false</bsvc:Include_Qualifications>
+    <!--Optional:-->
+    <bsvc:Include_Employee_Review>false</bsvc:Include_Employee_Review>
+    <!--Optional:-->
+    <bsvc:Include_Goals>true</bsvc:Include_Goals>
+    <!--Optional:-->
+    <bsvc:Include_Development_Items>true</bsvc:Include_Development_Items>
+    <!--Optional:-->
+    <bsvc:Include_Skills>false</bsvc:Include_Skills>
+    <!--Optional:-->
+    <bsvc:Include_Photo>true</bsvc:Include_Photo>
+    <!--Optional:-->
+    <bsvc:Include_Worker_Documents>true</bsvc:Include_Worker_Documents>
+    <!--Optional:-->
+    <bsvc:Include_Transaction_Log_Data>true</bsvc:Include_Transaction_Log_Data>
+    <!--Optional:-->
+    <bsvc:Include_Subevents_for_Corrected_Transaction>true</bsvc:Include_Subevents_for_Corrected_Transaction>
+    <!--Optional:-->
+    <bsvc:Include_Subevents_for_Rescinded_Transaction>false</bsvc:Include_Subevents_for_Rescinded_Transaction>
+    <!--Optional:-->
+    <bsvc:Include_Succession_Profile>true</bsvc:Include_Succession_Profile>
+    <!--Optional:-->
+    <bsvc:Include_Talent_Assessment>true</bsvc:Include_Talent_Assessment>
+    <!--Optional:-->
+    <bsvc:Include_Employee_Contract_Data>true</bsvc:Include_Employee_Contract_Data>
+    <!--Optional:-->
+    <bsvc:Include_Contracts_for_Terminated_Workers>true</bsvc:Include_Contracts_for_Terminated_Workers>
+    <!--Optional:-->
+    <bsvc:Include_Collective_Agreement_Data>false</bsvc:Include_Collective_Agreement_Data>
+    <!--Optional:-->
+    <bsvc:Include_Probation_Period_Data>true</bsvc:Include_Probation_Period_Data>
+    <!--Optional:-->
+    <bsvc:Include_Extended_Employee_Contract_Details>false</bsvc:Include_Extended_Employee_Contract_Details>
+    <!--Optional:-->
+    <bsvc:Include_Feedback_Received>true</bsvc:Include_Feedback_Received>
+    <!--Optional:-->
+    <bsvc:Include_User_Account>true</bsvc:Include_User_Account>
+    <!--Optional:-->
+    <bsvc:Include_Career>true</bsvc:Include_Career>
+    <!--Optional:-->
+    <bsvc:Include_Account_Provisioning>true</bsvc:Include_Account_Provisioning>
+    <!--Optional:-->
+    <bsvc:Include_Background_Check_Data>false</bsvc:Include_Background_Check_Data>
+    <!--Optional:-->
+    <bsvc:Include_Contingent_Worker_Tax_Authority_Form_Information>true</bsvc:Include_Contingent_Worker_Tax_Authority_Form_Information>
+    <!--Optional:-->
+    <bsvc:Exclude_Funds>true</bsvc:Exclude_Funds>
+    <!--Optional:-->
+    <bsvc:Exclude_Fund_Hierarchies>true</bsvc:Exclude_Fund_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Grants>false</bsvc:Exclude_Grants>
+    <!--Optional:-->
+    <bsvc:Exclude_Grant_Hierarchies>true</bsvc:Exclude_Grant_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Business_Units>false</bsvc:Exclude_Business_Units>
+    <!--Optional:-->
+    <bsvc:Exclude_Business_Unit_Hierarchies>false</bsvc:Exclude_Business_Unit_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Programs>true</bsvc:Exclude_Programs>
+    <!--Optional:-->
+    <bsvc:Exclude_Program_Hierarchies>true</bsvc:Exclude_Program_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Gifts>true</bsvc:Exclude_Gifts>
+    <!--Optional:-->
+    <bsvc:Exclude_Gift_Hierarchies>false</bsvc:Exclude_Gift_Hierarchies>
+    <!--Optional:-->
+    <bsvc:Exclude_Retiree_Organizations>true</bsvc:Exclude_Retiree_Organizations>
+  </bsvc:Response_Group>
+  <!--Optional:-->
+  <bsvc:Response_Results>
+    <!--Optional:-->
+    <bsvc:Total_Results>1000.00</bsvc:Total_Results>
+    <!--Optional:-->
+    <bsvc:Total_Pages>1000.00</bsvc:Total_Pages>
+    <!--Optional:-->
+    <bsvc:Page_Results>1000.00</bsvc:Page_Results>
+    <!--Optional:-->
+    <bsvc:Page>1000.00</bsvc:Page>
+  </bsvc:Response_Results>
+  <!--Optional:-->
+  <bsvc:Response_Data>
+    <!--Zero or more repetitions:-->
+    <bsvc:Worker>
+      <!--Optional:-->
+      <bsvc:Worker_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Worker_Reference>
+      <!--Optional:-->
+      <bsvc:Worker_Descriptor>string</bsvc:Worker_Descriptor>
+      <!--Optional:-->
+      <bsvc:Universal_Identifier_Reference bsvc:Descriptor="string">
+        <!--Zero or more repetitions:-->
+        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+      </bsvc:Universal_Identifier_Reference>
+      <!--Optional:-->
+      <bsvc:Worker_Data>
+        <!--Optional:-->
+        <bsvc:Worker_ID>string</bsvc:Worker_ID>
+        <!--Optional:-->
+        <bsvc:User_ID>string</bsvc:User_ID>
+        <!--Optional:-->
+        <bsvc:Universal_ID>string</bsvc:Universal_ID>
+        <!--Optional:-->
+        <bsvc:Personal_Data>
+          <!--Optional:-->
+          <bsvc:Universal_ID>string</bsvc:Universal_ID>
+          <!--Optional:-->
+          <bsvc:Name_Data>
+            <!--Optional:-->
+            <bsvc:Legal_Name_Data>
+              <bsvc:Name_Detail_Data bsvc:Formatted_Name="string" bsvc:Reporting_Name="string">
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Prefix_Data>
+                  <!--Optional:-->
+                  <bsvc:Title_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Title_Reference>
+                  <!--Optional:-->
+                  <bsvc:Title_Descriptor>string</bsvc:Title_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Salutation_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Salutation_Reference>
+                </bsvc:Prefix_Data>
+                <!--Optional:-->
+                <bsvc:First_Name>string</bsvc:First_Name>
+                <!--Optional:-->
+                <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                <!--Optional:-->
+                <bsvc:Last_Name>string</bsvc:Last_Name>
+                <!--Optional:-->
+                <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Tertiary_Last_Name>string</bsvc:Tertiary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Local_Name_Detail_Data bsvc:Local_Name="string" bsvc:Local_Script="string">
+                  <!--Optional:-->
+                  <bsvc:First_Name>string</bsvc:First_Name>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                  <!--Optional:-->
+                  <bsvc:Last_Name>string</bsvc:Last_Name>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                  <!--Optional:-->
+                  <bsvc:First_Name_2>string</bsvc:First_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name_2>string</bsvc:Middle_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Last_Name_2>string</bsvc:Last_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name_2>string</bsvc:Secondary_Last_Name_2>
+                </bsvc:Local_Name_Detail_Data>
+                <!--Optional:-->
+                <bsvc:Suffix_Data>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Social_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Descriptor>string</bsvc:Social_Suffix_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Academic_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Academic_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Hereditary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Hereditary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Honorary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Honorary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Professional_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Professional_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Religious_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Religious_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Royal_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Royal_Suffix_Reference>
+                </bsvc:Suffix_Data>
+                <!--Optional:-->
+                <bsvc:Full_Name_for_Singapore_and_Malaysia>string</bsvc:Full_Name_for_Singapore_and_Malaysia>
+              </bsvc:Name_Detail_Data>
+            </bsvc:Legal_Name_Data>
+            <!--Optional:-->
+            <bsvc:Preferred_Name_Data>
+              <bsvc:Name_Detail_Data bsvc:Formatted_Name="string" bsvc:Reporting_Name="string">
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Prefix_Data>
+                  <!--Optional:-->
+                  <bsvc:Title_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Title_Reference>
+                  <!--Optional:-->
+                  <bsvc:Title_Descriptor>string</bsvc:Title_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Salutation_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Salutation_Reference>
+                </bsvc:Prefix_Data>
+                <!--Optional:-->
+                <bsvc:First_Name>string</bsvc:First_Name>
+                <!--Optional:-->
+                <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                <!--Optional:-->
+                <bsvc:Last_Name>string</bsvc:Last_Name>
+                <!--Optional:-->
+                <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Tertiary_Last_Name>string</bsvc:Tertiary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Local_Name_Detail_Data bsvc:Local_Name="string" bsvc:Local_Script="string">
+                  <!--Optional:-->
+                  <bsvc:First_Name>string</bsvc:First_Name>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                  <!--Optional:-->
+                  <bsvc:Last_Name>string</bsvc:Last_Name>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                  <!--Optional:-->
+                  <bsvc:First_Name_2>string</bsvc:First_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name_2>string</bsvc:Middle_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Last_Name_2>string</bsvc:Last_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name_2>string</bsvc:Secondary_Last_Name_2>
+                </bsvc:Local_Name_Detail_Data>
+                <!--Optional:-->
+                <bsvc:Suffix_Data>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Social_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Descriptor>string</bsvc:Social_Suffix_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Academic_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Academic_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Hereditary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Hereditary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Honorary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Honorary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Professional_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Professional_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Religious_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Religious_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Royal_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Royal_Suffix_Reference>
+                </bsvc:Suffix_Data>
+                <!--Optional:-->
+                <bsvc:Full_Name_for_Singapore_and_Malaysia>string</bsvc:Full_Name_for_Singapore_and_Malaysia>
+              </bsvc:Name_Detail_Data>
+            </bsvc:Preferred_Name_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Additional_Name_Data>
+              <bsvc:Name_Detail_Data bsvc:Formatted_Name="string" bsvc:Reporting_Name="string">
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Prefix_Data>
+                  <!--Optional:-->
+                  <bsvc:Title_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Title_Reference>
+                  <!--Optional:-->
+                  <bsvc:Title_Descriptor>string</bsvc:Title_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Salutation_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Salutation_Reference>
+                </bsvc:Prefix_Data>
+                <!--Optional:-->
+                <bsvc:First_Name>string</bsvc:First_Name>
+                <!--Optional:-->
+                <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                <!--Optional:-->
+                <bsvc:Last_Name>string</bsvc:Last_Name>
+                <!--Optional:-->
+                <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Tertiary_Last_Name>string</bsvc:Tertiary_Last_Name>
+                <!--Optional:-->
+                <bsvc:Local_Name_Detail_Data bsvc:Local_Name="string" bsvc:Local_Script="string">
+                  <!--Optional:-->
+                  <bsvc:First_Name>string</bsvc:First_Name>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                  <!--Optional:-->
+                  <bsvc:Last_Name>string</bsvc:Last_Name>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                  <!--Optional:-->
+                  <bsvc:First_Name_2>string</bsvc:First_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Middle_Name_2>string</bsvc:Middle_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Last_Name_2>string</bsvc:Last_Name_2>
+                  <!--Optional:-->
+                  <bsvc:Secondary_Last_Name_2>string</bsvc:Secondary_Last_Name_2>
+                </bsvc:Local_Name_Detail_Data>
+                <!--Optional:-->
+                <bsvc:Suffix_Data>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Social_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Social_Suffix_Descriptor>string</bsvc:Social_Suffix_Descriptor>
+                  <!--Optional:-->
+                  <bsvc:Academic_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Academic_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Hereditary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Hereditary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Honorary_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Honorary_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Professional_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Professional_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Religious_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Religious_Suffix_Reference>
+                  <!--Optional:-->
+                  <bsvc:Royal_Suffix_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Royal_Suffix_Reference>
+                </bsvc:Suffix_Data>
+                <!--Optional:-->
+                <bsvc:Full_Name_for_Singapore_and_Malaysia>string</bsvc:Full_Name_for_Singapore_and_Malaysia>
+              </bsvc:Name_Detail_Data>
+              <!--Optional:-->
+              <bsvc:Name_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Name_Type_Reference>
+            </bsvc:Additional_Name_Data>
+          </bsvc:Name_Data>
+          <!--Zero or more repetitions:-->
+          <bsvc:Personal_Information_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Personal_Information_For_Country_Data>
+              <bsvc:Country_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Country_Reference>
+              <!--Zero or more repetitions:-->
+              <bsvc:Country_Personal_Information_Data>
+                <!--Optional:-->
+                <bsvc:Marital_Status_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+                </bsvc:Marital_Status_Reference>
+                <!--Optional:-->
+                <bsvc:Marital_Status_Date>2006-08-04</bsvc:Marital_Status_Date>
+                <!--Optional:-->
+                <bsvc:Religion_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Religion_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Disability_Status_Data>
+                  <bsvc:Disability_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Disability_Reference>
+                  <!--Optional:-->
+                  <bsvc:Disability_Status_Date>2013-07-07+00:00</bsvc:Disability_Status_Date>
+                  <!--Optional:-->
+                  <bsvc:Disability_Date_Known>2001-01-03</bsvc:Disability_Date_Known>
+                  <!--Optional:-->
+                  <bsvc:Disability_End_Date>2014-01-10</bsvc:Disability_End_Date>
+                  <!--Optional:-->
+                  <bsvc:Disability_Grade_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Disability_Grade_Reference>
+                  <!--Optional:-->
+                  <bsvc:Disability_Degree>1000.00</bsvc:Disability_Degree>
+                  <!--Optional:-->
+                  <bsvc:Disability_Remaining_Capacity>1000.00</bsvc:Disability_Remaining_Capacity>
+                  <!--You have a CHOICE of the next 2 items at this level-->
+                  <!--Optional:-->
+                  <bsvc:Disability_Certification_Authority_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Disability_Certification_Authority_Reference>
+                  <!--Optional:-->
+                  <bsvc:Disability_Certification_Authority>string</bsvc:Disability_Certification_Authority>
+                  <!--Optional:-->
+                  <bsvc:Disability_Certified_At>string</bsvc:Disability_Certified_At>
+                  <!--Optional:-->
+                  <bsvc:Disability_Certification_ID>string</bsvc:Disability_Certification_ID>
+                  <!--Optional:-->
+                  <bsvc:Disability_Certification_Basis_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Disability_Certification_Basis_Reference>
+                  <!--Optional:-->
+                  <bsvc:Disability_Severity_Recognition_Date>2015-07-10</bsvc:Disability_Severity_Recognition_Date>
+                  <!--Optional:-->
+                  <bsvc:Disability_FTE_Toward_Quota>1000.00</bsvc:Disability_FTE_Toward_Quota>
+                  <!--Optional:-->
+                  <bsvc:Disability_Work_Restrictions>string</bsvc:Disability_Work_Restrictions>
+                  <!--Optional:-->
+                  <bsvc:Disability_Accommodations_Requested>string</bsvc:Disability_Accommodations_Requested>
+                  <!--Optional:-->
+                  <bsvc:Disability_Accommodations_Provided>string</bsvc:Disability_Accommodations_Provided>
+                  <!--Optional:-->
+                  <bsvc:Disability_Rehabilitation_Requested>string</bsvc:Disability_Rehabilitation_Requested>
+                  <!--Optional:-->
+                  <bsvc:Disability_Rehabilitation_Provided>string</bsvc:Disability_Rehabilitation_Provided>
+                  <!--Optional:-->
+                  <bsvc:Note>string</bsvc:Note>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Worker_Document_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Worker_Document_Reference>
+                  <!--Optional:-->
+                  <bsvc:Disability_Status_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Disability_Status_Reference>
+                </bsvc:Disability_Status_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Ethnicity_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Ethnicity_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Race_Ethnicity_Details_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Race_Ethnicity_Details_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Ethnicity_Visual_Survey_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Ethnicity_Visual_Survey_Reference>
+                <!--Optional:-->
+                <bsvc:Hispanic_or_Latino>true</bsvc:Hispanic_or_Latino>
+                <!--Optional:-->
+                <bsvc:Hispanic_or_Latino_Visual_Survey>true</bsvc:Hispanic_or_Latino_Visual_Survey>
+                <!--Optional:-->
+                <bsvc:Aboriginal_Indigenous_Identification_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Aboriginal_Indigenous_Identification_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Aboriginal_Indigenous_Identification_Details_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Aboriginal_Indigenous_Identification_Details_Reference>
+                <!--Optional:-->
+                <bsvc:Hukou_Region_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Hukou_Region_Reference>
+                <!--Optional:-->
+                <bsvc:Hukou_Subregion_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Hukou_Subregion_Reference>
+                <!--Optional:-->
+                <bsvc:Hukou_Locality>string</bsvc:Hukou_Locality>
+                <!--Optional:-->
+                <bsvc:Hukou_Postal_Code>string</bsvc:Hukou_Postal_Code>
+                <!--Optional:-->
+                <bsvc:Hukou_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Hukou_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Local_Hukou>true</bsvc:Local_Hukou>
+                <!--Zero or more repetitions:-->
+                <bsvc:Native_Region_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Native_Region_Reference>
+                <!--Optional:-->
+                <bsvc:Native_Region_Descriptor>string</bsvc:Native_Region_Descriptor>
+                <!--Optional:-->
+                <bsvc:Personnel_File_Agency_for_Person>string</bsvc:Personnel_File_Agency_for_Person>
+                <!--Optional:-->
+                <bsvc:Political_Affiliation_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Political_Affiliation_Reference>
+                <!--Optional:-->
+                <bsvc:Social_Benefits_Locality_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Social_Benefits_Locality_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Relative_Name_Information_Data bsvc:Delete="false">
+                  <!--Optional:-->
+                  <bsvc:Relative_Name_Reference_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Relative_Name_Reference_Reference>
+                  <!--Optional:-->
+                  <bsvc:Relative_Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Relative_Type_Reference>
+                  <!--Optional:-->
+                  <bsvc:Name_Detail_Data bsvc:Formatted_Name="string" bsvc:Reporting_Name="string">
+                    <bsvc:Country_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Country_Reference>
+                    <!--Optional:-->
+                    <bsvc:Prefix_Data>
+                      <!--Optional:-->
+                      <bsvc:Title_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Title_Reference>
+                      <!--Optional:-->
+                      <bsvc:Title_Descriptor>string</bsvc:Title_Descriptor>
+                      <!--Optional:-->
+                      <bsvc:Salutation_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Salutation_Reference>
+                    </bsvc:Prefix_Data>
+                    <!--Optional:-->
+                    <bsvc:First_Name>string</bsvc:First_Name>
+                    <!--Optional:-->
+                    <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                    <!--Optional:-->
+                    <bsvc:Last_Name>string</bsvc:Last_Name>
+                    <!--Optional:-->
+                    <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                    <!--Optional:-->
+                    <bsvc:Tertiary_Last_Name>string</bsvc:Tertiary_Last_Name>
+                    <!--Optional:-->
+                    <bsvc:Local_Name_Detail_Data bsvc:Local_Name="string" bsvc:Local_Script="string">
+                      <!--Optional:-->
+                      <bsvc:First_Name>string</bsvc:First_Name>
+                      <!--Optional:-->
+                      <bsvc:Middle_Name>string</bsvc:Middle_Name>
+                      <!--Optional:-->
+                      <bsvc:Last_Name>string</bsvc:Last_Name>
+                      <!--Optional:-->
+                      <bsvc:Secondary_Last_Name>string</bsvc:Secondary_Last_Name>
+                      <!--Optional:-->
+                      <bsvc:First_Name_2>string</bsvc:First_Name_2>
+                      <!--Optional:-->
+                      <bsvc:Middle_Name_2>string</bsvc:Middle_Name_2>
+                      <!--Optional:-->
+                      <bsvc:Last_Name_2>string</bsvc:Last_Name_2>
+                      <!--Optional:-->
+                      <bsvc:Secondary_Last_Name_2>string</bsvc:Secondary_Last_Name_2>
+                    </bsvc:Local_Name_Detail_Data>
+                    <!--Optional:-->
+                    <bsvc:Suffix_Data>
+                      <!--Optional:-->
+                      <bsvc:Social_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Social_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Social_Suffix_Descriptor>string</bsvc:Social_Suffix_Descriptor>
+                      <!--Optional:-->
+                      <bsvc:Academic_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Academic_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Hereditary_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Hereditary_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Honorary_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Honorary_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Professional_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Professional_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Religious_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Religious_Suffix_Reference>
+                      <!--Optional:-->
+                      <bsvc:Royal_Suffix_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Royal_Suffix_Reference>
+                    </bsvc:Suffix_Data>
+                    <!--Optional:-->
+                    <bsvc:Full_Name_for_Singapore_and_Malaysia>string</bsvc:Full_Name_for_Singapore_and_Malaysia>
+                  </bsvc:Name_Detail_Data>
+                </bsvc:Relative_Name_Information_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Sexual_Orientation_and_Gender_Identity_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Sexual_Orientation_and_Gender_Identity_Reference>
+                <!--Optional:-->
+                <bsvc:Gender_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Gender_Reference>
+                <!--Optional:-->
+                <bsvc:Reporting_Gender_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Reporting_Gender_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Veterans_Preference_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Veterans_Preference_Reference>
+                <!--Optional:-->
+                <bsvc:Veterans_Preference_For_RIF_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Veterans_Preference_For_RIF_Reference>
+                <!--Optional:-->
+                <bsvc:Selective_Service_Registration_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Selective_Service_Registration_Reference>
+                <!--Optional:-->
+                <bsvc:Disabled_Veteran_Leave_Date_Reference>2007-06-22+00:00</bsvc:Disabled_Veteran_Leave_Date_Reference>
+                <!--Optional:-->
+                <bsvc:Active_Military_Uniformed_Service_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Active_Military_Uniformed_Service_Reference>
+                <!--Optional:-->
+                <bsvc:Uniform_Service_Reserve_Status_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Uniform_Service_Reserve_Status_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Specific_Section_Data>
+                  <!--Optional:-->
+                  <bsvc:Country_Specific_Section_1_Data>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_1_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_2_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_3_Reference>
+                  </bsvc:Country_Specific_Section_1_Data>
+                  <!--Optional:-->
+                  <bsvc:Country_Specific_Section_2_Data>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_1_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_2_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_3_Reference>
+                  </bsvc:Country_Specific_Section_2_Data>
+                  <!--Optional:-->
+                  <bsvc:Country_Specific_Section_3_Data>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_1_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_2_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Field_3_Reference>
+                  </bsvc:Country_Specific_Section_3_Data>
+                </bsvc:Country_Specific_Section_Data>
+              </bsvc:Country_Personal_Information_Data>
+            </bsvc:Personal_Information_For_Country_Data>
+            <!--Optional:-->
+            <bsvc:Birth_Date>2013-11-24+00:00</bsvc:Birth_Date>
+            <!--Optional:-->
+            <bsvc:Date_of_Death>2017-03-08</bsvc:Date_of_Death>
+            <!--Optional:-->
+            <bsvc:Country_of_Birth_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Country_of_Birth_Reference>
+            <!--Optional:-->
+            <bsvc:Country_Region_of_Birth_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Country_Region_of_Birth_Reference>
+            <!--Optional:-->
+            <bsvc:Region_of_Birth_Descriptor>string</bsvc:Region_of_Birth_Descriptor>
+            <!--Optional:-->
+            <bsvc:City_of_Birth>string</bsvc:City_of_Birth>
+            <!--Optional:-->
+            <bsvc:City_of_Birth_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+            </bsvc:City_of_Birth_Reference>
+            <!--Zero or more repetitions:-->
+            <bsvc:Citizenship_Status_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Citizenship_Status_Reference>
+            <!--Optional:-->
+            <bsvc:Primary_Nationality_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Primary_Nationality_Reference>
+            <!--Zero or more repetitions:-->
+            <bsvc:Additional_Nationalities_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Additional_Nationalities_Reference>
+            <!--Optional:-->
+            <bsvc:Last_Medical_Exam_Valid_To>2009-06-10</bsvc:Last_Medical_Exam_Valid_To>
+            <!--Optional:-->
+            <bsvc:Last_Medical_Exam_Date>2010-04-16+00:00</bsvc:Last_Medical_Exam_Date>
+            <!--Optional:-->
+            <bsvc:Medical_Exam_Notes>string</bsvc:Medical_Exam_Notes>
+            <!--Optional:-->
+            <bsvc:Blood_Type_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Blood_Type_Reference>
+            <!--Zero or more repetitions:-->
+            <bsvc:Military_Service_Data>
+              <bsvc:Status_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Status_Reference>
+              <!--Optional:-->
+              <bsvc:Discharge_Date>2016-10-25+00:00</bsvc:Discharge_Date>
+              <!--Optional:-->
+              <bsvc:Status_Begin_Date>2014-01-07</bsvc:Status_Begin_Date>
+              <!--Optional:-->
+              <bsvc:Military_Service_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Military_Service_Type_Reference>
+              <!--Optional:-->
+              <bsvc:Military_Rank_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Military_Rank_Reference>
+              <!--Optional:-->
+              <bsvc:Notes>string</bsvc:Notes>
+              <!--Optional:-->
+              <bsvc:Military_Service_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Military_Service_Reference>
+              <!--Optional:-->
+              <bsvc:Military_Discharge_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Military_Discharge_Type_Reference>
+            </bsvc:Military_Service_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Sexual_Orientation_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Sexual_Orientation_Reference>
+            <!--Zero or more repetitions:-->
+            <bsvc:Gender_Identity_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Gender_Identity_Reference>
+            <!--Zero or more repetitions:-->
+            <bsvc:Pronoun_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Pronoun_Reference>
+            <!--Optional:-->
+            <bsvc:Non_Country_Specific_Section_Data>
+              <!--Optional:-->
+              <bsvc:Non_Country_Specific_Section_1_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_1_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_2_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_3_Reference>
+              </bsvc:Non_Country_Specific_Section_1_Data>
+              <!--Optional:-->
+              <bsvc:Non_Country_Specific_Section_2_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_1_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_2_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_3_Reference>
+              </bsvc:Non_Country_Specific_Section_2_Data>
+              <!--Optional:-->
+              <bsvc:Non_Country_Specific_Section_3_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_1_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_1_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_2_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_2_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Field_3_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Field_3_Reference>
+              </bsvc:Non_Country_Specific_Section_3_Data>
+            </bsvc:Non_Country_Specific_Section_Data>
+          </bsvc:Personal_Information_Data>
+          <!--Optional:-->
+          <bsvc:Identification_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:National_ID bsvc:Delete="true">
+              <!--Optional:-->
+              <bsvc:National_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:National_ID_Reference>
+              <!--Optional:-->
+              <bsvc:National_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2010-06-26+00:00</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2016-10-17+00:00</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Verification_Date>2016-04-18+00:00</bsvc:Verification_Date>
+                <!--Optional:-->
+                <bsvc:Series>string</bsvc:Series>
+                <!--Optional:-->
+                <bsvc:Issuing_Agency>string</bsvc:Issuing_Agency>
+                <!--Optional:-->
+                <bsvc:Verified_By_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Verified_By_Reference>
+              </bsvc:National_ID_Data>
+              <!--Optional:-->
+              <bsvc:National_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:National_ID_Shared_Reference>
+            </bsvc:National_ID>
+            <!--Zero or more repetitions:-->
+            <bsvc:Government_ID bsvc:Delete="false">
+              <!--Optional:-->
+              <bsvc:Government_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Government_ID_Reference>
+              <!--Optional:-->
+              <bsvc:Government_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2011-06-29</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2010-05-01+00:00</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Verification_Date>2012-11-05+00:00</bsvc:Verification_Date>
+                <!--Optional:-->
+                <bsvc:Verified_by_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Verified_by_Reference>
+              </bsvc:Government_ID_Data>
+              <!--Optional:-->
+              <bsvc:Government_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Government_ID_Shared_Reference>
+            </bsvc:Government_ID>
+            <!--Zero or more repetitions:-->
+            <bsvc:Visa_ID bsvc:Delete="false">
+              <!--Optional:-->
+              <bsvc:Visa_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Visa_ID_Reference>
+              <!--Optional:-->
+              <bsvc:Visa_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2003-03-28+00:00</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2015-12-02</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Verification_Date>2007-10-06</bsvc:Verification_Date>
+                <!--Optional:-->
+                <bsvc:Verified_By_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Verified_By_Reference>
+              </bsvc:Visa_ID_Data>
+              <!--Optional:-->
+              <bsvc:Visa_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Visa_ID_Shared_Reference>
+            </bsvc:Visa_ID>
+            <!--Zero or more repetitions:-->
+            <bsvc:Passport_ID bsvc:Delete="true">
+              <!--Optional:-->
+              <bsvc:Passport_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Passport_ID_Reference>
+              <!--Optional:-->
+              <bsvc:Passport_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2017-07-13</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2006-02-20+00:00</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Verification_Date>2008-09-09+00:00</bsvc:Verification_Date>
+                <!--Optional:-->
+                <bsvc:Verified_By_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Verified_By_Reference>
+              </bsvc:Passport_ID_Data>
+              <!--Optional:-->
+              <bsvc:Passport_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Passport_ID_Shared_Reference>
+            </bsvc:Passport_ID>
+            <!--Zero or more repetitions:-->
+            <bsvc:License_ID bsvc:Delete="false">
+              <!--Optional:-->
+              <bsvc:License_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:License_ID_Reference>
+              <!--Optional:-->
+              <bsvc:License_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Region_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Country_Region_Reference>
+                <!--Optional:-->
+                <bsvc:Country_Region_Descriptor>string</bsvc:Country_Region_Descriptor>
+                <!--Optional:-->
+                <bsvc:Authority_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Authority_Reference>
+                <!--Optional:-->
+                <bsvc:License_Class>string</bsvc:License_Class>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2002-01-29</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2010-03-11</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Verification_Date>2015-08-06+00:00</bsvc:Verification_Date>
+                <!--Optional:-->
+                <bsvc:Verified_By_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Verified_By_Reference>
+              </bsvc:License_ID_Data>
+              <!--Optional:-->
+              <bsvc:License_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:License_ID_Shared_Reference>
+            </bsvc:License_ID>
+            <!--Zero or more repetitions:-->
+            <bsvc:Custom_ID bsvc:Delete="false">
+              <!--Optional:-->
+              <bsvc:Custom_ID_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Custom_ID_Reference>
+              <!--Optional:-->
+              <bsvc:Custom_ID_Data>
+                <!--Optional:-->
+                <bsvc:ID>string</bsvc:ID>
+                <!--Optional:-->
+                <bsvc:ID_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:ID_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Issued_Date>2015-08-28+00:00</bsvc:Issued_Date>
+                <!--Optional:-->
+                <bsvc:Expiration_Date>2006-12-27</bsvc:Expiration_Date>
+                <!--Optional:-->
+                <bsvc:Organization_ID_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Organization_ID_Reference>
+                <!--Optional:-->
+                <bsvc:Custom_Description>string</bsvc:Custom_Description>
+              </bsvc:Custom_ID_Data>
+              <!--Optional:-->
+              <bsvc:Custom_ID_Shared_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Custom_ID_Shared_Reference>
+            </bsvc:Custom_ID>
+          </bsvc:Identification_Data>
+          <!--Optional:-->
+          <bsvc:Contact_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Address_Data bsvc:Formatted_Address="string" bsvc:Address_Format_Type="string" bsvc:Defaulted_Business_Site_Address="true" bsvc:Delete="true" bsvc:Do_Not_Replace_All="true" bsvc:Effective_Date="2000-01-03">
+              <!--Optional:-->
+              <bsvc:Country_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Country_Reference>
+              <!--Optional:-->
+              <bsvc:Last_Modified>2005-04-26T02:03:53+00:00</bsvc:Last_Modified>
+              <!--Zero or more repetitions:-->
+              <bsvc:Address_Line_Data bsvc:Descriptor="string" bsvc:Type="string">string</bsvc:Address_Line_Data>
+              <!--Optional:-->
+              <bsvc:Municipality>string</bsvc:Municipality>
+              <!--Optional:-->
+              <bsvc:Country_City_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+              </bsvc:Country_City_Reference>
+              <!--Zero or more repetitions:-->
+              <bsvc:Submunicipality_Data bsvc:Address_Component_Name="string" bsvc:Type="string">string</bsvc:Submunicipality_Data>
+              <!--Optional:-->
+              <bsvc:Country_Region_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Country_Region_Reference>
+              <!--Optional:-->
+              <bsvc:Country_Region_Descriptor>string</bsvc:Country_Region_Descriptor>
+              <!--Zero or more repetitions:-->
+              <bsvc:Subregion_Data bsvc:Descriptor="string" bsvc:Type="string">string</bsvc:Subregion_Data>
+              <!--Optional:-->
+              <bsvc:Postal_Code>string</bsvc:Postal_Code>
+              <!--Zero or more repetitions:-->
+              <bsvc:Usage_Data bsvc:Public="true">
+                <!--1 or more repetitions:-->
+                <bsvc:Type_Data bsvc:Primary="true">
+                  <bsvc:Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Type_Reference>
+                </bsvc:Type_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Tenanted_Reference>
+                <!--Optional:-->
+                <bsvc:Comments>string</bsvc:Comments>
+              </bsvc:Usage_Data>
+              <!--Optional:-->
+              <bsvc:Number_of_Days>1000.00</bsvc:Number_of_Days>
+              <!--Optional:-->
+              <bsvc:Municipality_Local>string</bsvc:Municipality_Local>
+              <!--Optional:-->
+              <bsvc:Address_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Address_Reference>
+              <!--Optional:-->
+              <bsvc:Address_ID>string</bsvc:Address_ID>
+            </bsvc:Address_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Phone_Data bsvc:Area_Code="string" bsvc:Tenant_Formatted_Phone="string" bsvc:International_Formatted_Phone="string" bsvc:Phone_Number_Without_Area_Code="string" bsvc:National_Formatted_Phone="string" bsvc:E164_Formatted_Phone="string" bsvc:Workday_Traditional_Formatted_Phone="string" bsvc:Delete="true" bsvc:Do_Not_Replace_All="true">
+              <!--Optional:-->
+              <bsvc:Country_ISO_Code>str</bsvc:Country_ISO_Code>
+              <!--Optional:-->
+              <bsvc:International_Phone_Code>string</bsvc:International_Phone_Code>
+              <!--Optional:-->
+              <bsvc:Phone_Number>string</bsvc:Phone_Number>
+              <!--Optional:-->
+              <bsvc:Phone_Extension>string</bsvc:Phone_Extension>
+              <!--Optional:-->
+              <bsvc:Phone_Device_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Phone_Device_Type_Reference>
+              <!--Zero or more repetitions:-->
+              <bsvc:Usage_Data bsvc:Public="false">
+                <!--1 or more repetitions:-->
+                <bsvc:Type_Data bsvc:Primary="false">
+                  <bsvc:Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Type_Reference>
+                </bsvc:Type_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Tenanted_Reference>
+                <!--Optional:-->
+                <bsvc:Comments>string</bsvc:Comments>
+              </bsvc:Usage_Data>
+              <!--Optional:-->
+              <bsvc:Phone_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Phone_Reference>
+              <!--Optional:-->
+              <bsvc:ID>string</bsvc:ID>
+            </bsvc:Phone_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Email_Address_Data bsvc:Delete="true" bsvc:Do_Not_Replace_All="true">
+              <!--Optional:-->
+              <bsvc:Email_Address>string</bsvc:Email_Address>
+              <!--Optional:-->
+              <bsvc:Email_Comment>string</bsvc:Email_Comment>
+              <!--Zero or more repetitions:-->
+              <bsvc:Usage_Data bsvc:Public="false">
+                <!--1 or more repetitions:-->
+                <bsvc:Type_Data bsvc:Primary="true">
+                  <bsvc:Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Type_Reference>
+                </bsvc:Type_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Tenanted_Reference>
+                <!--Optional:-->
+                <bsvc:Comments>string</bsvc:Comments>
+              </bsvc:Usage_Data>
+              <!--Optional:-->
+              <bsvc:Email_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Email_Reference>
+              <!--Optional:-->
+              <bsvc:ID>string</bsvc:ID>
+            </bsvc:Email_Address_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Instant_Messenger_Data bsvc:Delete="false" bsvc:Do_Not_Replace_All="true">
+              <!--Optional:-->
+              <bsvc:Instant_Messenger_Address>string</bsvc:Instant_Messenger_Address>
+              <!--Optional:-->
+              <bsvc:Instant_Messenger_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Instant_Messenger_Type_Reference>
+              <!--Optional:-->
+              <bsvc:Instant_Messenger_Comment>string</bsvc:Instant_Messenger_Comment>
+              <!--Zero or more repetitions:-->
+              <bsvc:Usage_Data bsvc:Public="true">
+                <!--1 or more repetitions:-->
+                <bsvc:Type_Data bsvc:Primary="false">
+                  <bsvc:Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Type_Reference>
+                </bsvc:Type_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Tenanted_Reference>
+                <!--Optional:-->
+                <bsvc:Comments>string</bsvc:Comments>
+              </bsvc:Usage_Data>
+              <!--Optional:-->
+              <bsvc:Instant_Messenger_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Instant_Messenger_Reference>
+              <!--Optional:-->
+              <bsvc:ID>string</bsvc:ID>
+            </bsvc:Instant_Messenger_Data>
+            <!--Zero or more repetitions:-->
+            <bsvc:Web_Address_Data bsvc:Delete="false" bsvc:Do_Not_Replace_All="true">
+              <!--Optional:-->
+              <bsvc:Web_Address>string</bsvc:Web_Address>
+              <!--Optional:-->
+              <bsvc:Web_Address_Comment>string</bsvc:Web_Address_Comment>
+              <!--Zero or more repetitions:-->
+              <bsvc:Usage_Data bsvc:Public="true">
+                <!--1 or more repetitions:-->
+                <bsvc:Type_Data bsvc:Primary="true">
+                  <bsvc:Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Type_Reference>
+                </bsvc:Type_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Use_For_Tenanted_Reference>
+                <!--Optional:-->
+                <bsvc:Comments>string</bsvc:Comments>
+              </bsvc:Usage_Data>
+              <!--Optional:-->
+              <bsvc:Web_Address_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Web_Address_Reference>
+              <!--Optional:-->
+              <bsvc:ID>string</bsvc:ID>
+            </bsvc:Web_Address_Data>
+          </bsvc:Contact_Data>
+          <!--Optional:-->
+          <bsvc:Tobacco_Use>false</bsvc:Tobacco_Use>
+        </bsvc:Personal_Data>
+        <!--Optional:-->
+        <bsvc:Employment_Data>
+          <!--Zero or more repetitions:-->
+          <bsvc:Worker_Job_Data bsvc:Primary_Job="false">
+            <!--Optional:-->
+            <bsvc:Position_Data bsvc:Effective_Date="2003-08-29">
+              <!--Optional:-->
+              <bsvc:Position_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Position_Reference>
+              <!--Optional:-->
+              <bsvc:Headcount_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Headcount_Reference>
+              <!--Optional:-->
+              <bsvc:Position_ID>string</bsvc:Position_ID>
+              <!--Optional:-->
+              <bsvc:Position_Title>string</bsvc:Position_Title>
+              <!--Optional:-->
+              <bsvc:Business_Title>string</bsvc:Business_Title>
+              <!--Optional:-->
+              <bsvc:Start_Date>2014-09-04+00:00</bsvc:Start_Date>
+              <!--Optional:-->
+              <bsvc:End_Employment_Date>2012-06-12+00:00</bsvc:End_Employment_Date>
+              <!--Zero or more repetitions:-->
+              <bsvc:End_Employment_Reason_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:End_Employment_Reason_Reference>
+              <!--Optional:-->
+              <bsvc:Worker_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Worker_Type_Reference>
+              <!--Optional:-->
+              <bsvc:Position_Time_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Position_Time_Type_Reference>
+              <!--Optional:-->
+              <bsvc:Job_Exempt>false</bsvc:Job_Exempt>
+              <!--Optional:-->
+              <bsvc:Scheduled_Weekly_Hours>1000.00</bsvc:Scheduled_Weekly_Hours>
+              <!--Optional:-->
+              <bsvc:Default_Weekly_Hours>1000.00</bsvc:Default_Weekly_Hours>
+              <!--Optional:-->
+              <bsvc:Working_Time_Frequency_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Working_Time_Frequency_Reference>
+              <!--Optional:-->
+              <bsvc:Working_Time_Unit_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Working_Time_Unit_Reference>
+              <!--Optional:-->
+              <bsvc:Working_Time_Value>1000.00</bsvc:Working_Time_Value>
+              <!--Optional:-->
+              <bsvc:Full_Time_Equivalent_Percentage>1000.00</bsvc:Full_Time_Equivalent_Percentage>
+              <!--Optional:-->
+              <bsvc:Specify_Paid_FTE>false</bsvc:Specify_Paid_FTE>
+              <!--Optional:-->
+              <bsvc:Paid_FTE>1000.00</bsvc:Paid_FTE>
+              <!--Optional:-->
+              <bsvc:Specify_Working_FTE>false</bsvc:Specify_Working_FTE>
+              <!--Optional:-->
+              <bsvc:Working_FTE>1000.00</bsvc:Working_FTE>
+              <!--Optional:-->
+              <bsvc:Exclude_from_Headcount>true</bsvc:Exclude_from_Headcount>
+              <!--Optional:-->
+              <bsvc:Pay_Rate_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Pay_Rate_Type_Reference>
+              <!--Zero or more repetitions:-->
+              <bsvc:Job_Classification_Summary_Data bsvc:Additional="true">
+                <!--Optional:-->
+                <bsvc:Job_Classification_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Job_Classification_Reference>
+                <!--Optional:-->
+                <bsvc:Job_Group_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Job_Group_Reference>
+              </bsvc:Job_Classification_Summary_Data>
+              <!--Zero or more repetitions:-->
+              <bsvc:Company_Insider_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Company_Insider_Reference>
+              <!--Optional:-->
+              <bsvc:Work_Shift_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Work_Shift_Reference>
+              <!--Optional:-->
+              <bsvc:Work_Hours_Profiles_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Work_Hours_Profiles_Reference>
+              <!--Optional:-->
+              <bsvc:Federal_Withholding_FEIN>string</bsvc:Federal_Withholding_FEIN>
+              <!--Zero or more repetitions:-->
+              <bsvc:Worker_Compensation_Code_Data>
+                <!--Optional:-->
+                <bsvc:Workers_Compensation_Code_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Workers_Compensation_Code_Reference>
+                <!--Optional:-->
+                <bsvc:Workers_Compensation_Code>string</bsvc:Workers_Compensation_Code>
+              </bsvc:Worker_Compensation_Code_Data>
+              <!--Zero or more repetitions:-->
+              <bsvc:Position_Payroll_Reporting_Code_Data>
+                <bsvc:Payroll_Reporting_Code_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+                </bsvc:Payroll_Reporting_Code_Reference>
+                <bsvc:Code>string</bsvc:Code>
+                <!--Optional:-->
+                <bsvc:Formatted_Code>string</bsvc:Formatted_Code>
+                <bsvc:Name>string</bsvc:Name>
+                <bsvc:Payroll_Reporting_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Payroll_Reporting_Type_Reference>
+              </bsvc:Position_Payroll_Reporting_Code_Data>
+              <!--Optional:-->
+              <bsvc:Job_Profile_Summary_Data>
+                <!--Optional:-->
+                <bsvc:Job_Profile_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Job_Profile_Reference>
+                <!--Optional:-->
+                <bsvc:Job_Exempt>true</bsvc:Job_Exempt>
+                <!--Optional:-->
+                <bsvc:Management_Level_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Management_Level_Reference>
+                <!--Optional:-->
+                <bsvc:Job_Category_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Job_Category_Reference>
+                <!--Zero or more repetitions:-->
+                <bsvc:Job_Family_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Job_Family_Reference>
+                <!--Optional:-->
+                <bsvc:Job_Profile_Name>string</bsvc:Job_Profile_Name>
+                <!--Optional:-->
+                <bsvc:Work_Shift_Required>true</bsvc:Work_Shift_Required>
+                <!--Optional:-->
+                <bsvc:Critical_Job>false</bsvc:Critical_Job>
+                <!--Optional:-->
+                <bsvc:Difficulty_to_Fill_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Difficulty_to_Fill_Reference>
+              </bsvc:Job_Profile_Summary_Data>
+              <!--Optional:-->
+              <bsvc:Business_Site_Summary_Data>
+                <!--Optional:-->
+                <bsvc:Location_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Location_Reference>
+                <!--Optional:-->
+                <bsvc:Name>string</bsvc:Name>
+                <!--Zero or more repetitions:-->
+                <bsvc:Location_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Location_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Local_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Local_Reference>
+                <!--Optional:-->
+                <bsvc:Display_Language_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Display_Language_Reference>
+                <!--Optional:-->
+                <bsvc:Time_Profile_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Time_Profile_Reference>
+                <!--Optional:-->
+                <bsvc:Scheduled_Weekly_Hours>1000.00</bsvc:Scheduled_Weekly_Hours>
+                <!--Zero or more repetitions:-->
+                <bsvc:Address_Data bsvc:Formatted_Address="string" bsvc:Address_Format_Type="string" bsvc:Defaulted_Business_Site_Address="true" bsvc:Delete="false" bsvc:Do_Not_Replace_All="true" bsvc:Effective_Date="2008-03-25+00:00">
+                  <!--Optional:-->
+                  <bsvc:Country_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Country_Reference>
+                  <!--Optional:-->
+                  <bsvc:Last_Modified>2001-10-10T07:43:06+00:00</bsvc:Last_Modified>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Address_Line_Data bsvc:Descriptor="string" bsvc:Type="string">string</bsvc:Address_Line_Data>
+                  <!--Optional:-->
+                  <bsvc:Municipality>string</bsvc:Municipality>
+                  <!--Optional:-->
+                  <bsvc:Country_City_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+                  </bsvc:Country_City_Reference>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Submunicipality_Data bsvc:Address_Component_Name="string" bsvc:Type="string">string</bsvc:Submunicipality_Data>
+                  <!--Optional:-->
+                  <bsvc:Country_Region_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Country_Region_Reference>
+                  <!--Optional:-->
+                  <bsvc:Country_Region_Descriptor>string</bsvc:Country_Region_Descriptor>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Subregion_Data bsvc:Descriptor="string" bsvc:Type="string">string</bsvc:Subregion_Data>
+                  <!--Optional:-->
+                  <bsvc:Postal_Code>string</bsvc:Postal_Code>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Usage_Data bsvc:Public="false">
+                    <!--1 or more repetitions:-->
+                    <bsvc:Type_Data bsvc:Primary="false">
+                      <bsvc:Type_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Type_Reference>
+                    </bsvc:Type_Data>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Use_For_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Use_For_Reference>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Use_For_Tenanted_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Use_For_Tenanted_Reference>
+                    <!--Optional:-->
+                    <bsvc:Comments>string</bsvc:Comments>
+                  </bsvc:Usage_Data>
+                  <!--Optional:-->
+                  <bsvc:Number_of_Days>1000.00</bsvc:Number_of_Days>
+                  <!--Optional:-->
+                  <bsvc:Municipality_Local>string</bsvc:Municipality_Local>
+                  <!--Optional:-->
+                  <bsvc:Address_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Address_Reference>
+                  <!--Optional:-->
+                  <bsvc:Address_ID>string</bsvc:Address_ID>
+                </bsvc:Address_Data>
+              </bsvc:Business_Site_Summary_Data>
+              <!--Optional:-->
+              <bsvc:Payroll_Interface_Processing_Data>
+                <!--Optional:-->
+                <bsvc:Effective_Date>2008-03-10+00:00</bsvc:Effective_Date>
+                <!--Optional:-->
+                <bsvc:Pay_Rate_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Pay_Rate_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Frequency_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Frequency_Reference>
+                <!--Optional:-->
+                <bsvc:Pay_Group_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string" bsvc:parent_id="string" bsvc:parent_type="string">string</bsvc:ID>
+                </bsvc:Pay_Group_Reference>
+                <!--Optional:-->
+                <bsvc:Payroll_Entity_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Payroll_Entity_Reference>
+                <!--Optional:-->
+                <bsvc:External_Employee_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:External_Employee_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Payroll_File_Number>string</bsvc:Payroll_File_Number>
+              </bsvc:Payroll_Interface_Processing_Data>
+              <!--Optional:-->
+              <bsvc:Regular_Paid_Equivalent_Hours>1000.00</bsvc:Regular_Paid_Equivalent_Hours>
+              <!--Optional:-->
+              <bsvc:Worker_Hours_Profile_Classification>s</bsvc:Worker_Hours_Profile_Classification>
+              <!--Optional:-->
+              <bsvc:International_Assignment_Data>
+                <!--Optional:-->
+                <bsvc:International_Assignment_Type_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:International_Assignment_Type_Reference>
+                <!--Optional:-->
+                <bsvc:Start_International_Assignment_Reason_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Start_International_Assignment_Reason_Reference>
+                <!--Optional:-->
+                <bsvc:Expected_Assignment_End_Date>2016-08-12+00:00</bsvc:Expected_Assignment_End_Date>
+                <!--Optional:-->
+                <bsvc:Host_Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Host_Country_Reference>
+                <!--Optional:-->
+                <bsvc:Home_Country_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Home_Country_Reference>
+              </bsvc:International_Assignment_Data>
+              <!--Optional:-->
+              <bsvc:Work_Space__Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Work_Space__Reference>
+              <!--Optional:-->
+              <bsvc:Academic_Pay_Setup_Data>
+                <!--Optional:-->
+                <bsvc:Annual_Work_Period_Work_Percent_of_Year>1000.00</bsvc:Annual_Work_Period_Work_Percent_of_Year>
+                <!--Optional:-->
+                <bsvc:Annual_Work_Period_Start_Date>2011-01-20+00:00</bsvc:Annual_Work_Period_Start_Date>
+                <!--Optional:-->
+                <bsvc:Annual_Work_Period_End_Date>2008-11-22+00:00</bsvc:Annual_Work_Period_End_Date>
+                <!--Optional:-->
+                <bsvc:Disbursement_Plan_Period_Start_Date>2002-11-25+00:00</bsvc:Disbursement_Plan_Period_Start_Date>
+                <!--Optional:-->
+                <bsvc:Disbursement_Plan_Period_End_Date>2005-02-18+00:00</bsvc:Disbursement_Plan_Period_End_Date>
+              </bsvc:Academic_Pay_Setup_Data>
+              <!--Optional:-->
+              <bsvc:End_Date>2010-05-01</bsvc:End_Date>
+              <!--Optional:-->
+              <bsvc:Pay_Through_Date>2018-10-25+00:00</bsvc:Pay_Through_Date>
+              <!--Zero or more repetitions:-->
+              <bsvc:Collective_Agreement_Summary_Data>
+                <!--Optional:-->
+                <bsvc:Collective_Agreement_Data>
+                  <!--Optional:-->
+                  <bsvc:Assign_Employee_Collective_Agreement_Event_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Assign_Employee_Collective_Agreement_Event_Reference>
+                  <!--Optional:-->
+                  <bsvc:Effective_Date>2019-09-05</bsvc:Effective_Date>
+                  <!--Optional:-->
+                  <bsvc:End_Assignment_Date>2000-04-02</bsvc:End_Assignment_Date>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Collective_Agreement_Data>
+                    <!--Optional:-->
+                    <bsvc:Collective_Agreement_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Collective_Agreement_Reference>
+                    <!--Optional:-->
+                    <bsvc:Collective_Agreement_Review_Date>2010-01-16+00:00</bsvc:Collective_Agreement_Review_Date>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Collective_Agreement_Factor>
+                      <!--Optional:-->
+                      <bsvc:Order>string</bsvc:Order>
+                      <!--Optional:-->
+                      <bsvc:Collective_Agreement_Factor_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Collective_Agreement_Factor_Reference>
+                      <!--Zero or more repetitions:-->
+                      <bsvc:Collective_Agreement_Factor_Option_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Collective_Agreement_Factor_Option_Reference>
+                    </bsvc:Collective_Agreement_Factor>
+                  </bsvc:Collective_Agreement_Data>
+                </bsvc:Collective_Agreement_Data>
+              </bsvc:Collective_Agreement_Summary_Data>
+              <!--Optional:-->
+              <bsvc:Employee_Probation_Period_Summary_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Employee_Probation_Period_Detail_Data>
+                  <!--Optional:-->
+                  <bsvc:Employee_Probation_Period_Event_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Employee_Probation_Period_Event_Reference>
+                  <!--Optional:-->
+                  <bsvc:Employee_Probation_Period_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Employee_Probation_Period_Reference>
+                  <!--Optional:-->
+                  <bsvc:Effective_Date>2012-02-07+00:00</bsvc:Effective_Date>
+                  <!--Optional:-->
+                  <bsvc:Start_Date>2013-08-04+00:00</bsvc:Start_Date>
+                  <!--Optional:-->
+                  <bsvc:End_Date>2008-05-11+00:00</bsvc:End_Date>
+                  <!--Optional:-->
+                  <bsvc:Probation_Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Probation_Type_Reference>
+                  <!--Optional:-->
+                  <bsvc:Probation_Reason_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Probation_Reason_Reference>
+                  <!--Optional:-->
+                  <bsvc:Extended_End_Date>2009-10-30</bsvc:Extended_End_Date>
+                  <!--Optional:-->
+                  <bsvc:Note>string</bsvc:Note>
+                </bsvc:Employee_Probation_Period_Detail_Data>
+              </bsvc:Employee_Probation_Period_Summary_Data>
+              <!--Zero or more repetitions:-->
+              <bsvc:Manager_as_of_last_detected_manager_change_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Manager_as_of_last_detected_manager_change_Reference>
+            </bsvc:Position_Data>
+            <!--Optional:-->
+            <bsvc:Position_Organizations_Data>
+              <!--Zero or more repetitions:-->
+              <bsvc:Position_Organization_Data>
+                <bsvc:Organization_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Organization_Reference>
+                <bsvc:Organization_Data>
+                  <!--Optional:-->
+                  <bsvc:Organization_Reference_ID>string</bsvc:Organization_Reference_ID>
+                  <!--Optional:-->
+                  <bsvc:Organization_Code>string</bsvc:Organization_Code>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Integration_ID_Data>
+                    <!--1 or more repetitions:-->
+                    <bsvc:ID bsvc:System_ID="string">string</bsvc:ID>
+                  </bsvc:Integration_ID_Data>
+                  <!--Optional:-->
+                  <bsvc:Organization_Name>string</bsvc:Organization_Name>
+                  <!--Optional:-->
+                  <bsvc:Organization_Type_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Organization_Type_Reference>
+                  <!--Optional:-->
+                  <bsvc:Organization_Subtype_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Organization_Subtype_Reference>
+                  <!--Optional:-->
+                  <bsvc:Primary_Business_Site_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Primary_Business_Site_Reference>
+                  <!--Optional:-->
+                  <bsvc:Organization_Support_Role_Data>
+                    <!--Zero or more repetitions:-->
+                    <bsvc:Organization_Support_Role>
+                      <!--Optional:-->
+                      <bsvc:Organization_Role_Reference bsvc:Descriptor="string">
+                        <!--Zero or more repetitions:-->
+                        <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                      </bsvc:Organization_Role_Reference>
+                      <!--Zero or more repetitions:-->
+                      <bsvc:Organization_Role_Data>
+                        <!--Optional:-->
+                        <bsvc:Worker_Reference bsvc:Descriptor="string">
+                          <!--Zero or more repetitions:-->
+                          <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                        </bsvc:Worker_Reference>
+                        <!--Optional:-->
+                        <bsvc:Assignment_From>string</bsvc:Assignment_From>
+                      </bsvc:Organization_Role_Data>
+                    </bsvc:Organization_Support_Role>
+                  </bsvc:Organization_Support_Role_Data>
+                  <!--Optional:-->
+                  <bsvc:Date_of_Pay_Group_Assignment>2001-03-09+00:00</bsvc:Date_of_Pay_Group_Assignment>
+                  <!--Optional:-->
+                  <bsvc:Used_in_Change_Organization_Assignments>true</bsvc:Used_in_Change_Organization_Assignments>
+                </bsvc:Organization_Data>
+              </bsvc:Position_Organization_Data>
+              <!--Zero or more repetitions:-->
+              <bsvc:Pay_Group_Assignment_Correct_or_Rescind_Data>
+                <!--Optional:-->
+                <bsvc:Effective_Date>2016-09-20</bsvc:Effective_Date>
+                <!--Optional:-->
+                <bsvc:Completed_On>2009-11-25T17:06:16+00:00</bsvc:Completed_On>
+                <!--Optional:-->
+                <bsvc:Event_Corrected>false</bsvc:Event_Corrected>
+                <!--Optional:-->
+                <bsvc:Event_Rescinded>true</bsvc:Event_Rescinded>
+                <!--Optional:-->
+                <bsvc:Original_Pay_Group_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Original_Pay_Group_Reference>
+                <!--Optional:-->
+                <bsvc:Proposed_Pay_Group_Reference bsvc:Descriptor="string">
+                  <!--Zero or more repetitions:-->
+                  <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                </bsvc:Proposed_Pay_Group_Reference>
+              </bsvc:Pay_Group_Assignment_Correct_or_Rescind_Data>
+            </bsvc:Position_Organizations_Data>
+            <!--Optional:-->
+            <bsvc:Position_Management_Chains_Data>
+              <!--Optional:-->
+              <bsvc:Position_Supervisory_Management_Chain_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Management_Chain_Data>
+                  <!--Optional:-->
+                  <bsvc:Organization_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Organization_Reference>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Manager_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Manager_Reference>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Manager>
+                    <!--Optional:-->
+                    <bsvc:Worker_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Worker_Reference>
+                    <!--Optional:-->
+                    <bsvc:Worker_Descriptor>string</bsvc:Worker_Descriptor>
+                  </bsvc:Manager>
+                </bsvc:Management_Chain_Data>
+              </bsvc:Position_Supervisory_Management_Chain_Data>
+              <!--Optional:-->
+              <bsvc:Position_Matrix_Management_Chain_Data>
+                <!--Zero or more repetitions:-->
+                <bsvc:Management_Chain_Data>
+                  <!--Optional:-->
+                  <bsvc:Organization_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Organization_Reference>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Manager_Reference bsvc:Descriptor="string">
+                    <!--Zero or more repetitions:-->
+                    <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                  </bsvc:Manager_Reference>
+                  <!--Zero or more repetitions:-->
+                  <bsvc:Manager>
+                    <!--Optional:-->
+                    <bsvc:Worker_Reference bsvc:Descriptor="string">
+                      <!--Zero or more repetitions:-->
+                      <bsvc:ID bsvc:type="string">string</bsvc:ID>
+                    </bsvc:Worker_Reference>
+                    <!--Optional:-->
+                    <bsvc:Worker_Descriptor>string</bsvc:Worker_Descriptor>
+                  </bsvc:Manager>
+                </bsvc:Management_Chain_Data>
+              </bsvc:Position_Matrix_Management_Chain_Data>
+            </bsvc:Position_Management_Chains_Data>
+            <!--Optional:-->
+            <bsvc:Position_Contract_Detail_Data>
+              <!--Optional:-->
+              <bsvc:Contract_Pay_Rate>1000.00</bsvc:Contract_Pay_Rate>
+              <!--Optional:-->
+              <bsvc:Currency_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Currency_Reference>
+              <!--Optional:-->
+              <bsvc:Frequency_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Frequency_Reference>
+              <!--Optional:-->
+              <bsvc:Contract_Assignment_Details>string</bsvc:Contract_Assignment_Details>
+              <!--Optional:-->
+              <bsvc:Contract_End_Date>2015-05-26</bsvc:Contract_End_Date>
+              <!--Optional:-->
+              <bsvc:Supplier_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Supplier_Reference>
+            </bsvc:Position_Contract_Detail_Data>
+          </bsvc:Worker_Job_Data>
+          <!--Optional:-->
+          <bsvc:Worker_Status_Data>
+            <!--Optional:-->
+            <bsvc:Active>true</bsvc:Active>
+            <!--Optional:-->
+            <bsvc:Active_Status_Date>2001-11-13+00:00</bsvc:Active_Status_Date>
+            <!--Optional:-->
+            <bsvc:Hire_Date>2013-10-02+00:00</bsvc:Hire_Date>
+            <!--Optional:-->
+            <bsvc:Original_Hire_Date>2009-01-04</bsvc:Original_Hire_Date>
+            <!--Optional:-->
+            <bsvc:Hire_Reason_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Hire_Reason_Reference>
+            <!--Optional:-->
+            <bsvc:End_Employment_Date>2008-06-25+00:00</bsvc:End_Employment_Date>
+            <!--Optional:-->
+            <bsvc:Continuous_Service_Date>2003-11-13</bsvc:Continuous_Service_Date>
+            <!--Optional:-->
+            <bsvc:First_Day_of_Work>2018-07-12+00:00</bsvc:First_Day_of_Work>
+            <!--Optional:-->
+            <bsvc:Expected_Retirement_Date>2003-10-31</bsvc:Expected_Retirement_Date>
+            <!--Optional:-->
+            <bsvc:Retirement_Eligibility_Date>2009-04-01+00:00</bsvc:Retirement_Eligibility_Date>
+            <!--Optional:-->
+            <bsvc:Retired>false</bsvc:Retired>
+            <!--Optional:-->
+            <bsvc:Retirement_Date>2007-11-07+00:00</bsvc:Retirement_Date>
+            <!--Optional:-->
+            <bsvc:Seniority_Date>2009-04-25+00:00</bsvc:Seniority_Date>
+            <!--Optional:-->
+            <bsvc:Severance_Date>2012-11-19</bsvc:Severance_Date>
+            <!--Optional:-->
+            <bsvc:Benefits_Service_Date>2005-07-09</bsvc:Benefits_Service_Date>
+            <!--Optional:-->
+            <bsvc:Company_Service_Date>2018-02-18</bsvc:Company_Service_Date>
+            <!--Optional:-->
+            <bsvc:Time_Off_Service_Date>2006-03-21+00:00</bsvc:Time_Off_Service_Date>
+            <!--Optional:-->
+            <bsvc:Vesting_Date>2002-12-11+00:00</bsvc:Vesting_Date>
+            <!--Optional:-->
+            <bsvc:Date_Entered_Workforce>2003-11-18+00:00</bsvc:Date_Entered_Workforce>
+            <!--Optional:-->
+            <bsvc:Days_Unemployed>1000.00</bsvc:Days_Unemployed>
+            <!--Optional:-->
+            <bsvc:Months_Continuous_Prior_Employment>1000.00</bsvc:Months_Continuous_Prior_Employment>
+            <!--Optional:-->
+            <bsvc:Terminated>false</bsvc:Terminated>
+            <!--Optional:-->
+            <bsvc:Termination_Date>2015-10-03+00:00</bsvc:Termination_Date>
+            <!--Optional:-->
+            <bsvc:Pay_Through_Date>2004-11-01</bsvc:Pay_Through_Date>
+            <!--Optional:-->
+            <bsvc:Agreement_Signature_Date>2017-07-22+00:00</bsvc:Agreement_Signature_Date>
+            <!--Optional:-->
+            <bsvc:Dismissal_Process_Start_Date>2002-11-05</bsvc:Dismissal_Process_Start_Date>
+            <!--Optional:-->
+            <bsvc:Notice_Period_Start_Date>2005-03-26</bsvc:Notice_Period_Start_Date>
+            <!--Optional:-->
+            <bsvc:Primary_Termination_Reason_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Primary_Termination_Reason_Reference>
+            <!--Optional:-->
+            <bsvc:Primary_Termination_Category_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Primary_Termination_Category_Reference>
+            <!--Optional:-->
+            <bsvc:Termination_Involuntary>false</bsvc:Termination_Involuntary>
+            <!--Zero or more repetitions:-->
+            <bsvc:Secondary_Termination_Reasons_Data>
+              <!--Optional:-->
+              <bsvc:Secondary_Termination_Reason_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Secondary_Termination_Reason_Reference>
+              <!--Optional:-->
+              <bsvc:Secondary_Termination_Reason_Category_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Secondary_Termination_Reason_Category_Reference>
+            </bsvc:Secondary_Termination_Reasons_Data>
+            <!--Optional:-->
+            <bsvc:Local_Termination_Reason_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Local_Termination_Reason_Reference>
+            <!--Optional:-->
+            <bsvc:Eligible_for_Hire_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Eligible_for_Hire_Reference>
+            <!--Optional:-->
+            <bsvc:Regrettable_Termination>false</bsvc:Regrettable_Termination>
+            <!--Optional:-->
+            <bsvc:Eligible_for_Rehire_on_Latest_Termination_Reference bsvc:Descriptor="string">
+              <!--Zero or more repetitions:-->
+              <bsvc:ID bsvc:type="string">string</bsvc:ID>
+            </bsvc:Eligible_for_Rehire_on_Latest_Termination_Reference>
+            <!--Optional:-->
+            <bsvc:Hire_Rescinded>false</bsvc:Hire_Rescinded>
+            <!--Optional:-->
+            <bsvc:Termination_Last_Day_of_Work>2012-06-01</bsvc:Termination_Last_Day_of_Work>
+            <!--Optional:-->
+            <bsvc:Resignation_Date>2007-08-23+00:00</bsvc:Resignation_Date>
+            <!--Optional:-->
+            <bsvc:Last_Date_for_Which_Paid>2001-05-05</bsvc:Last_Date_for_Which_Paid>
+            <!--Optional:-->
+            <bsvc:Expected_Date_of_Return>2014-06-20</bsvc:Expected_Date_of_Return>
+            <!--Optional:-->
+            <bsvc:Not_Returning>false</bsvc:Not_Returning>
+            <!--Optional:-->
+            <bsvc:Return_Unknown>true</bsvc:Return_Unknown>
+            <!--Optional:-->
+            <bsvc:Probation_Start_Date>2007-11-23</bsvc:Probation_Start_Date>
+            <!--Optional:-->
+            <bsvc:Probation_End_Date>2013-12-16+00:00</bsvc:Probation_End_Date>
+            <!--Zero or more repetitions:-->
+            <bsvc:Leave_Status_Data>
+              <!--Optional:-->
+              <bsvc:Leave_Request_Event_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Leave_Request_Event_Reference>
+              <!--Optional:-->
+              <bsvc:Leave_Request_Description>string</bsvc:Leave_Request_Description>
+              <!--Optional:-->
+              <bsvc:Leave_Return_Event_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Leave_Return_Event_Reference>
+              <!--Optional:-->
+              <bsvc:On_Leave>true</bsvc:On_Leave>
+              <!--Optional:-->
+              <bsvc:Leave_Start_Date>2009-08-19</bsvc:Leave_Start_Date>
+              <!--Optional:-->
+              <bsvc:Estimated_Leave_End_Date>2014-03-29</bsvc:Estimated_Leave_End_Date>
+              <!--Optional:-->
+              <bsvc:Leave_End_Date>2016-02-10</bsvc:Leave_End_Date>
+              <!--Optional:-->
+              <bsvc:First_Day_Of_Work>2009-06-24</bsvc:First_Day_Of_Work>
+              <!--Optional:-->
+              <bsvc:Leave_Last_Day_of_Work>2013-04-19+00:00</bsvc:Leave_Last_Day_of_Work>
+              <!--Optional:-->
+              <bsvc:Leave_of_Absence_Type_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Leave_of_Absence_Type_Reference>
+              <!--Optional:-->
+              <bsvc:Benefits_Effect>true</bsvc:Benefits_Effect>
+              <!--Optional:-->
+              <bsvc:Payroll_Effect>false</bsvc:Payroll_Effect>
+              <!--Optional:-->
+              <bsvc:Paid_Time_Off_Accrual_Effect>true</bsvc:Paid_Time_Off_Accrual_Effect>
+              <!--Optional:-->
+              <bsvc:Continuous_Service_Accrual_Effect>true</bsvc:Continuous_Service_Accrual_Effect>
+              <!--Optional:-->
+              <bsvc:Stock_Vesting_Effect>true</bsvc:Stock_Vesting_Effect>
+              <!--Optional:-->
+              <bsvc:Leave_Type_Reason_Reference bsvc:Descriptor="string">
+                <!--Zero or more repetitions:-->
+                <bsvc:ID bsvc:type="string">string</bsvc:ID>
+              </bsvc:Leave_Type_Reason_Reference>
+              <!--Optional:-->
+              <bsvc:Leave_Request_Additional_Fields>
+                <!--Optional:-->
+                <bsvc:Last_Date_for_Which_Paid>2000-01-16</bsvc:Last_Date_for_Which_Paid>
+                <!--Optional:-->
+                <bsvc:Expected_Due_Date>2011-04-25</bsvc:Expected_Due_Date>
+                <!--Optional:-->
+                <bsvc:Child_s_Birth_Date>2019-01-12+00:00</bsvc:Child_s_Birth_Date>
+                <!--Optional:-->
+                <bsvc:Stillbirth_Baby_Deceased>false</bsvc:Stillbirth_Baby_Deceased>
+                <!--Optional:-->
+                <bsvc:Date_Baby_Arrived_Home_From_Hospital>2001-02-22</bsvc:Date_Baby_Arrived_Home_From_Hospital>
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Optional:-->
+                <!--Zero or more repetitions:-->
+              </bsvc:Leave_Request_Additional_Fields>
+            </bsvc:Leave_Status_Data>
+            <!--Zero or more repetitions:-->
+            <!--Optional:-->
+            <!--Optional:-->
+          </bsvc:Worker_Status_Data>
+          <!--Optional:-->
+        </bsvc:Employment_Data>
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Zero or more repetitions:-->
+        <!--Optional:-->
+        <!--Zero or more repetitions:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Optional:-->
+        <!--Zero or more repetitions:-->
+        <!--Zero or more repetitions:-->
+      </bsvc:Worker_Data>
+    </bsvc:Worker>
+  </bsvc:Response_Data>
+  <!--Zero or more repetitions:-->
+</bsvc:Get_Workers_Response>
