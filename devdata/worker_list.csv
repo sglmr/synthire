@@ -1,101 +1,101 @@
-Employee_ID,First_Name,Last_Name,Is_Manager,Email_Address,Job_Family,Job_Profile,Country
-EMP001,Scott,Peterson,Y,scott.peterson@fakecorp.com,Finance,Finance Manager,USA
-EMP002,Robert,Lopez,N,robert.lopez@fakecorp.com,Sales,Account Executive,IND
-EMP003,Amy,Brown,Y,amy.brown@fakecorp.com,Sales,Sales Manager,AUS
-EMP004,Anthony,Johnson,N,anthony.johnson@fakecorp.com,Finance,Financial Analyst,USA
-EMP005,Brandon,Chavez,Y,brandon.chavez@fakecorp.com,Engineering,Engineering Manager,GBR
-EMP006,Donna,Miller,Y,donna.miller@fakecorp.com,Sales,Sales Manager,DEU
-EMP007,James,Foster,N,james.foster@fakecorp.com,Engineering,DevOps Engineer,IND
-EMP008,Brian,Davis,N,brian.davis@fakecorp.com,Human Resources,Recruiter,MEX
-EMP009,Helen,Hall,Y,helen.hall@fakecorp.com,Sales,Sales Manager,JPN
-EMP010,Debra,Kim,Y,debra.kim@fakecorp.com,Sales,Sales Manager,AUS
-EMP011,Jason,Cox,Y,jason.cox@fakecorp.com,Sales,Sales Manager,DEU
-EMP012,Nancy,Watson,N,nancy.watson@fakecorp.com,Engineering,QA Tester,JPN
-EMP013,Laura,Thompson,Y,laura.thompson@fakecorp.com,Sales,Sales Manager,IND
-EMP014,Maria,Bennet,N,maria.bennet@fakecorp.com,Marketing,Content Creator,BRA
-EMP015,Larry,Hernandez,Y,larry.hernandez@fakecorp.com,Engineering,Engineering Manager,AUS
-EMP016,Nicholas,Morgan,Y,nicholas.morgan@fakecorp.com,Engineering,Engineering Manager,AUS
-EMP017,Patricia,Mendoza,N,patricia.mendoza@fakecorp.com,Engineering,DevOps Engineer,CAN
-EMP018,Michelle,Wilson,N,michelle.wilson@fakecorp.com,Finance,Accountant,AUS
-EMP019,Steven,Roberts,Y,steven.roberts@fakecorp.com,Sales,Sales Manager,AUS
-EMP020,Brian,Gutierrez,N,brian.gutierrez@fakecorp.com,IT,Network Engineer,MEX
-EMP021,Stephanie,Moore,N,stephanie.moore@fakecorp.com,IT,Network Engineer,MEX
-EMP022,Daniel,Nguyen,N,daniel.nguyen@fakecorp.com,Marketing,Marketing Specialist,USA
-EMP023,Andrew,Wright,N,andrew.wright@fakecorp.com,Marketing,Content Creator,IND
-EMP024,Jack,Allen,N,jack.allen@fakecorp.com,Finance,Accountant,FRA
-EMP025,Christine,Morales,N,christine.morales@fakecorp.com,Engineering,QA Tester,BRA
-EMP026,Cynthia,Ruiz,Y,cynthia.ruiz@fakecorp.com,Sales,Sales Manager,DEU
-EMP027,Kevin,Cooper,N,kevin.cooper@fakecorp.com,Finance,Financial Analyst,BRA
-EMP028,Jason,Harris,Y,jason.harris@fakecorp.com,Engineering,Engineering Manager,JPN
-EMP029,Melissa,Hall,N,melissa.hall@fakecorp.com,Human Resources,HR Generalist,CAN
-EMP030,Donald,Nguyen,Y,donald.nguyen@fakecorp.com,Finance,Finance Manager,DEU
-EMP031,Brandon,Ramirez,N,brandon.ramirez@fakecorp.com,Finance,Financial Analyst,AUS
-EMP032,Gary,Morgan,N,gary.morgan@fakecorp.com,Sales,Sales Representative,BRA
-EMP033,Helen,Gray,Y,helen.gray@fakecorp.com,Engineering,Engineering Manager,AUS
-EMP034,Ryan,Thompson,Y,ryan.thompson@fakecorp.com,Finance,Finance Manager,JPN
-EMP035,Christine,Baker,N,christine.baker@fakecorp.com,IT,Systems Administrator,IND
-EMP036,Jack,Parker,Y,jack.parker@fakecorp.com,Finance,Finance Manager,IND
-EMP037,Christine,Howard,Y,christine.howard@fakecorp.com,Finance,Finance Manager,CAN
-EMP038,Emma,Howard,N,emma.howard@fakecorp.com,Engineering,Software Engineer,FRA
-EMP039,Barbara,Hughes,N,barbara.hughes@fakecorp.com,Engineering,Software Engineer,FRA
-EMP040,Frank,Thompson,N,frank.thompson@fakecorp.com,Engineering,QA Tester,BRA
-EMP041,Jonathan,Castillo,Y,jonathan.castillo@fakecorp.com,Finance,Finance Manager,BRA
-EMP042,Margaret,Castillo,Y,margaret.castillo@fakecorp.com,Finance,Finance Manager,DEU
-EMP043,Carolyn,Hill,Y,carolyn.hill@fakecorp.com,Sales,Sales Manager,AUS
-EMP044,Emma,Wilson,Y,emma.wilson@fakecorp.com,Marketing,Marketing Manager,FRA
-EMP045,Jerry,Gutierrez,N,jerry.gutierrez@fakecorp.com,Engineering,QA Tester,AUS
-EMP046,Dennis,Jones,N,dennis.jones@fakecorp.com,Human Resources,HR Generalist,FRA
-EMP047,Steven,Gonzales,N,steven.gonzales@fakecorp.com,IT,Network Engineer,MEX
-EMP048,Benjamin,Carter,Y,benjamin.carter@fakecorp.com,Sales,Sales Manager,MEX
-EMP049,Michael,Williams,N,michael.williams@fakecorp.com,Human Resources,HR Generalist,USA
-EMP050,Sharon,Roberts,Y,sharon.roberts@fakecorp.com,Finance,Finance Manager,BRA
-EMP051,Michael,Gomez,N,michael.gomez@fakecorp.com,IT,Network Engineer,IND
-EMP052,Michelle,Nelson,Y,michelle.nelson@fakecorp.com,Marketing,Marketing Manager,BRA
-EMP053,Janet,Brooks,N,janet.brooks@fakecorp.com,Finance,Accountant,CAN
-EMP054,Nicole,Williams,N,nicole.williams@fakecorp.com,Human Resources,HR Generalist,IND
-EMP055,Scott,Nguyen,Y,scott.nguyen@fakecorp.com,Engineering,Engineering Manager,JPN
-EMP056,Amy,Martinez,Y,amy.martinez@fakecorp.com,Marketing,Marketing Manager,JPN
-EMP057,Brandon,Harris,N,brandon.harris@fakecorp.com,Finance,Financial Analyst,GBR
-EMP058,Jacob,Ramos,N,jacob.ramos@fakecorp.com,IT,Network Engineer,GBR
-EMP059,Jeffrey,Morgan,N,jeffrey.morgan@fakecorp.com,IT,Systems Administrator,AUS
-EMP060,Nicholas,Carter,N,nicholas.carter@fakecorp.com,Sales,Account Executive,FRA
-EMP061,Ruth,Nelson,Y,ruth.nelson@fakecorp.com,Engineering,Engineering Manager,MEX
-EMP062,Jeffrey,Reed,N,jeffrey.reed@fakecorp.com,Human Resources,HR Generalist,IND
-EMP063,Justin,White,N,justin.white@fakecorp.com,Sales,Sales Representative,GBR
-EMP064,Joshua,Baker,N,joshua.baker@fakecorp.com,Sales,Account Executive,GBR
-EMP065,Donald,Smith,N,donald.smith@fakecorp.com,Sales,Sales Representative,JPN
-EMP066,Frank,Taylor,N,frank.taylor@fakecorp.com,IT,Network Engineer,FRA
-EMP067,Charles,Moore,N,charles.moore@fakecorp.com,Finance,Financial Analyst,FRA
-EMP068,Rebecca,Cooper,N,rebecca.cooper@fakecorp.com,Human Resources,HR Generalist,DEU
-EMP069,Jason,Rivera,N,jason.rivera@fakecorp.com,Engineering,DevOps Engineer,FRA
-EMP070,Patricia,Wright,N,patricia.wright@fakecorp.com,Engineering,QA Tester,JPN
-EMP071,Nancy,Flores,Y,nancy.flores@fakecorp.com,Finance,Finance Manager,FRA
-EMP072,Jeffrey,Hill,Y,jeffrey.hill@fakecorp.com,Finance,Finance Manager,MEX
-EMP073,Benjamin,Hughes,N,benjamin.hughes@fakecorp.com,Sales,Sales Representative,CAN
-EMP074,Kimberly,Gutierrez,N,kimberly.gutierrez@fakecorp.com,IT,Network Engineer,IND
-EMP075,Raymond,Murphy,N,raymond.murphy@fakecorp.com,Human Resources,HR Generalist,BRA
-EMP076,James,Green,N,james.green@fakecorp.com,Marketing,Marketing Specialist,FRA
-EMP077,Betty,Ortiz,N,betty.ortiz@fakecorp.com,Finance,Financial Analyst,DEU
-EMP078,Angela,Davis,N,angela.davis@fakecorp.com,IT,Systems Administrator,AUS
-EMP079,Angela,Sanchez,Y,angela.sanchez@fakecorp.com,Marketing,Marketing Manager,MEX
-EMP080,Susan,Wilson,Y,susan.wilson@fakecorp.com,Sales,Sales Manager,BRA
-EMP081,Kathleen,Turner,Y,kathleen.turner@fakecorp.com,Engineering,Engineering Manager,DEU
-EMP082,Sandra,Evans,Y,sandra.evans@fakecorp.com,Finance,Finance Manager,FRA
-EMP083,Paul,Scott,Y,paul.scott@fakecorp.com,Finance,Finance Manager,MEX
-EMP084,Amanda,Wilson,N,amanda.wilson@fakecorp.com,Marketing,Marketing Specialist,IND
-EMP085,Jonathan,Wood,Y,jonathan.wood@fakecorp.com,Marketing,Marketing Manager,DEU
-EMP086,Joshua,James,N,joshua.james@fakecorp.com,IT,IT Support Specialist,DEU
-EMP087,Patricia,Cox,N,patricia.cox@fakecorp.com,Human Resources,Recruiter,AUS
-EMP088,Rebecca,Sanders,Y,rebecca.sanders@fakecorp.com,Marketing,Marketing Manager,IND
-EMP089,Pamela,Young,N,pamela.young@fakecorp.com,Engineering,DevOps Engineer,BRA
-EMP090,Thomas,Kim,Y,thomas.kim@fakecorp.com,Sales,Sales Manager,GBR
-EMP091,Benjamin,Jones,N,benjamin.jones@fakecorp.com,Sales,Account Executive,JPN
-EMP092,Rebecca,Morgan,Y,rebecca.morgan@fakecorp.com,Finance,Finance Manager,CAN
-EMP093,Timothy,Clark,N,timothy.clark@fakecorp.com,Finance,Accountant,CAN
-EMP094,Michael,Chavez,N,michael.chavez@fakecorp.com,Finance,Financial Analyst,FRA
-EMP095,Sarah,Davis,N,sarah.davis@fakecorp.com,Human Resources,HR Generalist,GBR
-EMP096,Anna,Lewis,N,anna.lewis@fakecorp.com,Finance,Financial Analyst,BRA
-EMP097,Catherine,Jones,N,catherine.jones@fakecorp.com,Engineering,Software Engineer,BRA
-EMP098,Carolyn,Brooks,N,carolyn.brooks@fakecorp.com,Sales,Sales Representative,FRA
-EMP099,Patrick,Hernandez,N,patrick.hernandez@fakecorp.com,Marketing,Marketing Specialist,FRA
-EMP100,Kevin,Chavez,Y,kevin.chavez@fakecorp.com,Finance,Finance Manager,JPN
+Employee_ID,First_Name,Last_Name,Is_Manager,Email_Address,Job_Family,Job_Profile,Country,Supervisory_Org
+EMP001,Scott,Peterson,Y,scott.peterson@fakecorp.com,Finance,Finance Manager,USA,Finance Division
+EMP002,Robert,Lopez,N,robert.lopez@fakecorp.com,Sales,Account Executive,IND,Sales Division
+EMP003,Amy,Brown,Y,amy.brown@fakecorp.com,Sales,Sales Manager,AUS,Sales Division
+EMP004,Anthony,Johnson,N,anthony.johnson@fakecorp.com,Finance,Financial Analyst,USA,Finance Division
+EMP005,Brandon,Chavez,Y,brandon.chavez@fakecorp.com,Engineering,Engineering Manager,GBR,Engineering Division
+EMP006,Donna,Miller,Y,donna.miller@fakecorp.com,Sales,Sales Manager,DEU,Sales Division
+EMP007,James,Foster,N,james.foster@fakecorp.com,Engineering,DevOps Engineer,IND,Engineering Division
+EMP008,Brian,Davis,N,brian.davis@fakecorp.com,Human Resources,Recruiter,MEX,Human Resources Division
+EMP009,Helen,Hall,Y,helen.hall@fakecorp.com,Sales,Sales Manager,JPN,Sales Division
+EMP010,Debra,Kim,Y,debra.kim@fakecorp.com,Sales,Sales Manager,AUS,Sales Division
+EMP011,Jason,Cox,Y,jason.cox@fakecorp.com,Sales,Sales Manager,DEU,Sales Division
+EMP012,Nancy,Watson,N,nancy.watson@fakecorp.com,Engineering,QA Tester,JPN,Engineering Division
+EMP013,Laura,Thompson,Y,laura.thompson@fakecorp.com,Sales,Sales Manager,IND,Sales Division
+EMP014,Maria,Bennet,N,maria.bennet@fakecorp.com,Marketing,Content Creator,BRA,Marketing Division
+EMP015,Larry,Hernandez,Y,larry.hernandez@fakecorp.com,Engineering,Engineering Manager,AUS,Engineering Division
+EMP016,Nicholas,Morgan,Y,nicholas.morgan@fakecorp.com,Engineering,Engineering Manager,AUS,Engineering Division
+EMP017,Patricia,Mendoza,N,patricia.mendoza@fakecorp.com,Engineering,DevOps Engineer,CAN,Engineering Division
+EMP018,Michelle,Wilson,N,michelle.wilson@fakecorp.com,Finance,Accountant,AUS,Finance Division
+EMP019,Steven,Roberts,Y,steven.roberts@fakecorp.com,Sales,Sales Manager,AUS,Sales Division
+EMP020,Brian,Gutierrez,N,brian.gutierrez@fakecorp.com,IT,Network Engineer,MEX,IT Division
+EMP021,Stephanie,Moore,N,stephanie.moore@fakecorp.com,IT,Network Engineer,MEX,IT Division
+EMP022,Daniel,Nguyen,N,daniel.nguyen@fakecorp.com,Marketing,Marketing Specialist,USA,Marketing Division
+EMP023,Andrew,Wright,N,andrew.wright@fakecorp.com,Marketing,Content Creator,IND,Marketing Division
+EMP024,Jack,Allen,N,jack.allen@fakecorp.com,Finance,Accountant,FRA,Finance Division
+EMP025,Christine,Morales,N,christine.morales@fakecorp.com,Engineering,QA Tester,BRA,Engineering Division
+EMP026,Cynthia,Ruiz,Y,cynthia.ruiz@fakecorp.com,Sales,Sales Manager,DEU,Sales Division
+EMP027,Kevin,Cooper,N,kevin.cooper@fakecorp.com,Finance,Financial Analyst,BRA,Finance Division
+EMP028,Jason,Harris,Y,jason.harris@fakecorp.com,Engineering,Engineering Manager,JPN,Engineering Division
+EMP029,Melissa,Hall,N,melissa.hall@fakecorp.com,Human Resources,HR Generalist,CAN,Human Resources Division
+EMP030,Donald,Nguyen,Y,donald.nguyen@fakecorp.com,Finance,Finance Manager,DEU,Finance Division
+EMP031,Brandon,Ramirez,N,brandon.ramirez@fakecorp.com,Finance,Financial Analyst,AUS,Finance Division
+EMP032,Gary,Morgan,N,gary.morgan@fakecorp.com,Sales,Sales Representative,BRA,Sales Division
+EMP033,Helen,Gray,Y,helen.gray@fakecorp.com,Engineering,Engineering Manager,AUS,Engineering Division
+EMP034,Ryan,Thompson,Y,ryan.thompson@fakecorp.com,Finance,Finance Manager,JPN,Finance Division
+EMP035,Christine,Baker,N,christine.baker@fakecorp.com,IT,Systems Administrator,IND,IT Division
+EMP036,Jack,Parker,Y,jack.parker@fakecorp.com,Finance,Finance Manager,IND,Finance Division
+EMP037,Christine,Howard,Y,christine.howard@fakecorp.com,Finance,Finance Manager,CAN,Finance Division
+EMP038,Emma,Howard,N,emma.howard@fakecorp.com,Engineering,Software Engineer,FRA,Engineering Division
+EMP039,Barbara,Hughes,N,barbara.hughes@fakecorp.com,Engineering,Software Engineer,FRA,Engineering Division
+EMP040,Frank,Thompson,N,frank.thompson@fakecorp.com,Engineering,QA Tester,BRA,Engineering Division
+EMP041,Jonathan,Castillo,Y,jonathan.castillo@fakecorp.com,Finance,Finance Manager,BRA,Finance Division
+EMP042,Margaret,Castillo,Y,margaret.castillo@fakecorp.com,Finance,Finance Manager,DEU,Finance Division
+EMP043,Carolyn,Hill,Y,carolyn.hill@fakecorp.com,Sales,Sales Manager,AUS,Sales Division
+EMP044,Emma,Wilson,Y,emma.wilson@fakecorp.com,Marketing,Marketing Manager,FRA,Marketing Division
+EMP045,Jerry,Gutierrez,N,jerry.gutierrez@fakecorp.com,Engineering,QA Tester,AUS,Engineering Division
+EMP046,Dennis,Jones,N,dennis.jones@fakecorp.com,Human Resources,HR Generalist,FRA,Human Resources Division
+EMP047,Steven,Gonzales,N,steven.gonzales@fakecorp.com,IT,Network Engineer,MEX,IT Division
+EMP048,Benjamin,Carter,Y,benjamin.carter@fakecorp.com,Sales,Sales Manager,MEX,Sales Division
+EMP049,Michael,Williams,N,michael.williams@fakecorp.com,Human Resources,HR Generalist,USA,Human Resources Division
+EMP050,Sharon,Roberts,Y,sharon.roberts@fakecorp.com,Finance,Finance Manager,BRA,Finance Division
+EMP051,Michael,Gomez,N,michael.gomez@fakecorp.com,IT,Network Engineer,IND,IT Division
+EMP052,Michelle,Nelson,Y,michelle.nelson@fakecorp.com,Marketing,Marketing Manager,BRA,Marketing Division
+EMP053,Janet,Brooks,N,janet.brooks@fakecorp.com,Finance,Accountant,CAN,Finance Division
+EMP054,Nicole,Williams,N,nicole.williams@fakecorp.com,Human Resources,HR Generalist,IND,Human Resources Division
+EMP055,Scott,Nguyen,Y,scott.nguyen@fakecorp.com,Engineering,Engineering Manager,JPN,Engineering Division
+EMP056,Amy,Martinez,Y,amy.martinez@fakecorp.com,Marketing,Marketing Manager,JPN,Marketing Division
+EMP057,Brandon,Harris,N,brandon.harris@fakecorp.com,Finance,Financial Analyst,GBR,Finance Division
+EMP058,Jacob,Ramos,N,jacob.ramos@fakecorp.com,IT,Network Engineer,GBR,IT Division
+EMP059,Jeffrey,Morgan,N,jeffrey.morgan@fakecorp.com,IT,Systems Administrator,AUS,IT Division
+EMP060,Nicholas,Carter,N,nicholas.carter@fakecorp.com,Sales,Account Executive,FRA,Sales Division
+EMP061,Ruth,Nelson,Y,ruth.nelson@fakecorp.com,Engineering,Engineering Manager,MEX,Engineering Division
+EMP062,Jeffrey,Reed,N,jeffrey.reed@fakecorp.com,Human Resources,HR Generalist,IND,Human Resources Division
+EMP063,Justin,White,N,justin.white@fakecorp.com,Sales,Sales Representative,GBR,Sales Division
+EMP064,Joshua,Baker,N,joshua.baker@fakecorp.com,Sales,Account Executive,GBR,Sales Division
+EMP065,Donald,Smith,N,donald.smith@fakecorp.com,Sales,Sales Representative,JPN,Sales Division
+EMP066,Frank,Taylor,N,frank.taylor@fakecorp.com,IT,Network Engineer,FRA,IT Division
+EMP067,Charles,Moore,N,charles.moore@fakecorp.com,Finance,Financial Analyst,FRA,Finance Division
+EMP068,Rebecca,Cooper,N,rebecca.cooper@fakecorp.com,Human Resources,HR Generalist,DEU,Human Resources Division
+EMP069,Jason,Rivera,N,jason.rivera@fakecorp.com,Engineering,DevOps Engineer,FRA,Engineering Division
+EMP070,Patricia,Wright,N,patricia.wright@fakecorp.com,Engineering,QA Tester,JPN,Engineering Division
+EMP071,Nancy,Flores,Y,nancy.flores@fakecorp.com,Finance,Finance Manager,FRA,Finance Division
+EMP072,Jeffrey,Hill,Y,jeffrey.hill@fakecorp.com,Finance,Finance Manager,MEX,Finance Division
+EMP073,Benjamin,Hughes,N,benjamin.hughes@fakecorp.com,Sales,Sales Representative,CAN,Sales Division
+EMP074,Kimberly,Gutierrez,N,kimberly.gutierrez@fakecorp.com,IT,Network Engineer,IND,IT Division
+EMP075,Raymond,Murphy,N,raymond.murphy@fakecorp.com,Human Resources,HR Generalist,BRA,Human Resources Division
+EMP076,James,Green,N,james.green@fakecorp.com,Marketing,Marketing Specialist,FRA,Marketing Division
+EMP077,Betty,Ortiz,N,betty.ortiz@fakecorp.com,Finance,Financial Analyst,DEU,Finance Division
+EMP078,Angela,Davis,N,angela.davis@fakecorp.com,IT,Systems Administrator,AUS,IT Division
+EMP079,Angela,Sanchez,Y,angela.sanchez@fakecorp.com,Marketing,Marketing Manager,MEX,Marketing Division
+EMP080,Susan,Wilson,Y,susan.wilson@fakecorp.com,Sales,Sales Manager,BRA,Sales Division
+EMP081,Kathleen,Turner,Y,kathleen.turner@fakecorp.com,Engineering,Engineering Manager,DEU,Engineering Division
+EMP082,Sandra,Evans,Y,sandra.evans@fakecorp.com,Finance,Finance Manager,FRA,Finance Division
+EMP083,Paul,Scott,Y,paul.scott@fakecorp.com,Finance,Finance Manager,MEX,Finance Division
+EMP084,Amanda,Wilson,N,amanda.wilson@fakecorp.com,Marketing,Marketing Specialist,IND,Marketing Division
+EMP085,Jonathan,Wood,Y,jonathan.wood@fakecorp.com,Marketing,Marketing Manager,DEU,Marketing Division
+EMP086,Joshua,James,N,joshua.james@fakecorp.com,IT,IT Support Specialist,DEU,IT Division
+EMP087,Patricia,Cox,N,patricia.cox@fakecorp.com,Human Resources,Recruiter,AUS,Human Resources Division
+EMP088,Rebecca,Sanders,Y,rebecca.sanders@fakecorp.com,Marketing,Marketing Manager,IND,Marketing Division
+EMP089,Pamela,Young,N,pamela.young@fakecorp.com,Engineering,DevOps Engineer,BRA,Engineering Division
+EMP090,Thomas,Kim,Y,thomas.kim@fakecorp.com,Sales,Sales Manager,GBR,Sales Division
+EMP091,Benjamin,Jones,N,benjamin.jones@fakecorp.com,Sales,Account Executive,JPN,Sales Division
+EMP092,Rebecca,Morgan,Y,rebecca.morgan@fakecorp.com,Finance,Finance Manager,CAN,Finance Division
+EMP093,Timothy,Clark,N,timothy.clark@fakecorp.com,Finance,Accountant,CAN,Finance Division
+EMP094,Michael,Chavez,N,michael.chavez@fakecorp.com,Finance,Financial Analyst,FRA,Finance Division
+EMP095,Sarah,Davis,N,sarah.davis@fakecorp.com,Human Resources,HR Generalist,GBR,Human Resources Division
+EMP096,Anna,Lewis,N,anna.lewis@fakecorp.com,Finance,Financial Analyst,BRA,Finance Division
+EMP097,Catherine,Jones,N,catherine.jones@fakecorp.com,Engineering,Software Engineer,BRA,Engineering Division
+EMP098,Carolyn,Brooks,N,carolyn.brooks@fakecorp.com,Sales,Sales Representative,FRA,Sales Division
+EMP099,Patrick,Hernandez,N,patrick.hernandez@fakecorp.com,Marketing,Marketing Specialist,FRA,Marketing Division
+EMP100,Kevin,Chavez,Y,kevin.chavez@fakecorp.com,Finance,Finance Manager,JPN,Finance Division

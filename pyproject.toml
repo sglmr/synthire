@@ -7,10 +7,18 @@ authors = [
     { name = "stephen gilmore", email = "stephen@gilmore.us" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.38.0",
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "mcp[cli]>=2.2.0",
+    "uvicorn>=0.52.4",
+]
 
 [project.scripts]
 synthire = "synthire:main"
+synthire-mock = "synthire:run_mock_tenant"
+synthire-mcp = "synthire:run_mcp_server"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
